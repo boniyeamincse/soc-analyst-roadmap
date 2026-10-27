@@ -3,7 +3,7 @@
 > **Navigation:** [Roadmap index](../README.md) · [← Python](Python.md) · [Blue Team Labs Online →](../10%20-%20Practice/Blue-Team-Labs-Online.md)
 
 > Goal: turn repeated analyst work into reliable, auditable playbooks — without automating your way into an outage.
-> API mechanics → [APIs.md](APIs.md); scripting → [Python.md](Python.md) / [PowerShell.md](PowerShell.md) / [Bash.md](Bash.md).
+> API mechanics → [APIs.md](APIs.md); scripting → [Python.md](Python.md) / [PowerShell.md](PowerShell.md) / [Bash.md](Bash.md); continuous detection testing → [Purple-Teaming.md](Purple-Teaming.md).
 
 ---
 

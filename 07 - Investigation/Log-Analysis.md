@@ -3,7 +3,7 @@
 > **Navigation:** [Roadmap index](../README.md) · [← IOC Analysis](IOC-Analysis.md) · [Root Cause Analysis →](Root-Cause-Analysis.md)
 
 > Goal: read logs like an investigator — find the event that matters, prove it, and avoid the traps that make logs lie.
-> Log sources/inventory → [04 - Security Monitoring/Logs.md](../04%20-%20Security%20Monitoring/Logs.md); Windows events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md); queries → [05 - SIEM/Queries.md](../05%20-%20SIEM/Queries.md).
+> Log sources/inventory → [04 - Security Monitoring/Logs.md](../04%20-%20Security%20Monitoring/Logs.md); Windows events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md); queries → [05 - SIEM/Queries.md](../05%20-%20SIEM/Queries.md); host artifacts & DFIR → [Digital-Forensics.md](Digital-Forensics.md).
 
 ---
 

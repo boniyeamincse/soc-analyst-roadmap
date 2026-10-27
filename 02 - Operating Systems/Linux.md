@@ -3,7 +3,7 @@
 > **Navigation:** [Roadmap index](../README.md) · [← File Systems](File-Systems.md) · [Permissions →](Permissions.md)
 
 > Goal: understand Linux enough to **triage SSH attacks, reverse shells, web-shell/RCE, persistence, privilege escalation, cryptominers, rootkits, and log tampering** on servers, cloud VMs, and containers.
-> File-system internals → [File-Systems.md](File-Systems.md); permissions/ACLs → [Permissions.md](Permissions.md); Windows equivalents → [Windows.md](Windows.md).
+> File-system internals → [File-Systems.md](File-Systems.md); permissions/ACLs → [Permissions.md](Permissions.md); Windows equivalents → [Windows.md](Windows.md); container runtime & logs → [Container-Logging.md](Container-Logging.md).
 
 ---
 

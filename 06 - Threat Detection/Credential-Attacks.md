@@ -3,7 +3,7 @@
 > **Navigation:** [Roadmap index](../README.md) · [← Brute Force](Brute-Force.md) · [Lateral Movement →](Lateral-Movement.md)
 
 > Goal: detect the theft, extraction, and abuse of credentials and tickets — the step that turns "a foothold" into "domain admin".
-> Password guessing → [Brute-Force.md](Brute-Force.md); AD mechanics → [03 - Cybersecurity Fundamentals/Authentication.md](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md); events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md).
+> Password guessing → [Brute-Force.md](Brute-Force.md); AD mechanics → [03 - Cybersecurity Fundamentals/Authentication.md](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md); events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md); deep AD attacks → [Active-Directory-Attacks.md](Active-Directory-Attacks.md); cloud identity → [Cloud-Detection.md](Cloud-Detection.md).
 
 ---
 

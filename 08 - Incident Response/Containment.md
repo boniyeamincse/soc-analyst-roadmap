@@ -3,7 +3,7 @@
 > **Navigation:** [Roadmap index](../README.md) · [← Timeline Analysis](../07%20-%20Investigation/Timeline-Analysis.md) · [Eradication →](Eradication.md)
 
 > Goal: stop the spread and the bleeding without destroying evidence or the business.
-> Declaration/severity → [Identification.md](Identification.md); removal of the cause → [Eradication.md](Eradication.md).
+> Declaration/severity → [Identification.md](Identification.md); removal of the cause → [Eradication.md](Eradication.md); ransomware containment → [Ransomware-Playbook.md](Ransomware-Playbook.md).
 
 ---
 

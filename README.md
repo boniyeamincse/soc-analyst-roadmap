@@ -2,7 +2,7 @@
 
 A structured, self-contained study library for becoming a **SOC Analyst** and progressing to **L2, Detection Engineering, Threat Hunting, and Incident Response**.
 
-**64 study notes · ~36,500 lines · 11 sections · beginner → advanced**
+**70 study notes · ~38,200 lines · 11 sections · beginner → advanced**
 
 Every note is written to be studied sequentially, used as a reference during an investigation, and revisited as a one-page revision sheet before interviews.
 
@@ -126,7 +126,7 @@ SOC ANALYST ROADMAP/
 | [VPNs.md](01%20-%20Networking%20Fundamentals/VPNs.md) | 779 | Tunnels, IPsec/SSL, split tunnelling, logs |
 | [Firewalls.md](01%20-%20Networking%20Fundamentals/Firewalls.md) | 700 | Rules, stateful inspection, NAT, evasion |
 
-### 02 — Operating Systems (5,829 lines)
+### 02 — Operating Systems (6,095 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
@@ -137,6 +137,7 @@ SOC ANALYST ROADMAP/
 | [Permissions.md](02%20-%20Operating%20Systems/Permissions.md) | 747 | ACLs, sudo, SUID, privilege models |
 | [Processes.md](02%20-%20Operating%20Systems/Processes.md) | 707 | Process trees, lineage, injection, memory |
 | [linuxlog.md](02%20-%20Operating%20Systems/linuxlog.md) | 1,151 | syslog, journald, auditd, tampering, forwarding |
+| [Container-Logging.md](02%20-%20Operating%20Systems/Container-Logging.md) | 266 | Docker/K8s telemetry, audit logs, breakouts, Falco |
 
 ### 03 — Cybersecurity Fundamentals (3,583 lines)
 
@@ -174,45 +175,50 @@ SOC ANALYST ROADMAP/
 | [Detection-Rules.md](05%20-%20SIEM/Detection-Rules.md) | 568 | Rule lifecycle, tuning, versioning, retirement |
 | [Log-Collection.md](05%20-%20SIEM/Log-Collection.md) | 530 | Agents, forwarders, parsers, pipelines |
 
-### 06 — Threat Detection (2,660 lines)
+### 06 — Threat Detection (3,180 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
+| [Active-Directory-Attacks.md](06%20-%20Threat%20Detection/Active-Directory-Attacks.md) | 290 | Kerberoasting, AS-REP, DCSync, AD CS, Golden/Silver |
 | [Brute-Force.md](06%20-%20Threat%20Detection/Brute-Force.md) | 433 | Password guessing/spray, thresholds, response |
+| [Cloud-Detection.md](06%20-%20Threat%20Detection/Cloud-Detection.md) | 230 | AWS CloudTrail, GuardDuty, Entra ID, OAuth, BEC |
 | [Credential-Attacks.md](06%20-%20Threat%20Detection/Credential-Attacks.md) | 448 | Dumping, pass-the-hash, Kerberos abuse |
 | [Lateral-Movement.md](06%20-%20Threat%20Detection/Lateral-Movement.md) | 483 | SMB, RDP, WinRM, WMI, service creation |
 | [Malware.md](06%20-%20Threat%20Detection/Malware.md) | 439 | Execution chains, C2, persistence, triage |
 | [Phishing.md](06%20-%20Threat%20Detection/Phishing.md) | 428 | Headers, URLs, attachments, BEC |
 | [Suspicious-Processes.md](06%20-%20Threat%20Detection/Suspicious-Processes.md) | 429 | LOLBins, lineage, injection, masquerading |
 
-### 07 — Investigation (3,030 lines)
+### 07 — Investigation (3,227 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
 | [Alert-Triage.md](07%20-%20Investigation/Alert-Triage.md) | 443 | Verdicts, evidence, decision trees, escalation |
-| [Log-Analysis.md](07%20-%20Investigation/Log-Analysis.md) | 522 | Parsing, baselining, sequence, gaps |
+| [Digital-Forensics.md](07%20-%20Investigation/Digital-Forensics.md) | 197 | Host artifacts (Prefetch, Shimcache, SRUM), Volatility, KAPE |
 | [IOC-Analysis.md](07%20-%20Investigation/IOC-Analysis.md) | 521 | IOC/IOA, Pyramid of Pain, retro-hunting, decay |
-| [Timeline-Analysis.md](07%20-%20Investigation/Timeline-Analysis.md) | 480 | Normalisation, super-timelines, gap analysis |
+| [Log-Analysis.md](07%20-%20Investigation/Log-Analysis.md) | 522 | Parsing, baselining, sequence, gaps |
 | [Root-Cause-Analysis.md](07%20-%20Investigation/Root-Cause-Analysis.md) | 546 | 5 Whys, fishbone, fault tree, control failures |
 | [Threat-Intelligence.md](07%20-%20Investigation/Threat-Intelligence.md) | 518 | Intel cycle, PIRs, Diamond Model, grading |
+| [Timeline-Analysis.md](07%20-%20Investigation/Timeline-Analysis.md) | 480 | Normalisation, super-timelines, gap analysis |
 
-### 08 — Incident Response (2,234 lines)
+### 08 — Incident Response (2,447 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
 | [Identification.md](08%20-%20Incident%20Response/Identification.md) | 505 | Declaration, severity, roles, legal clocks |
 | [Containment.md](08%20-%20Incident%20Response/Containment.md) | 464 | Isolation ladder, identity/cloud/ransomware |
 | [Eradication.md](08%20-%20Incident%20Response/Eradication.md) | 493 | Persistence inventory, AD/cloud cleanup, verification |
+| [Ransomware-Playbook.md](08%20-%20Incident%20Response/Ransomware-Playbook.md) | 213 | RaaS lifecycle, pre-encryption detection, containment, rebuild |
 | [Recovery.md](08%20-%20Incident%20Response/Recovery.md) | 392 | Backups, clean rebuild, phases, hypercare |
 | [Lessons-Learned.md](08%20-%20Incident%20Response/Lessons-Learned.md) | 380 | Blameless review, actions, metrics, maturity |
 
-### 09 — Automation (2,727 lines)
+### 09 — Automation (2,909 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
 | [APIs.md](09%20-%20Automation/APIs.md) | 512 | REST, auth, pagination, retries, webhooks |
 | [Bash.md](09%20-%20Automation/Bash.md) | 519 | Text pipelines, jq, SOC recipes, cron |
 | [PowerShell.md](09%20-%20Automation/PowerShell.md) | 551 | Objects, event logs, persistence, Graph |
+| [Purple-Teaming.md](09%20-%20Automation/Purple-Teaming.md) | 182 | Atomic Red Team, detection testing CI/CD, scoring ladder |
 | [Python.md](09%20-%20Automation/Python.md) | 676 | Requests, parsing, testing, packaging |
 | [SOAR.md](09%20-%20Automation/SOAR.md) | 469 | Playbooks, integrations, approval tiers |
 
@@ -482,13 +488,9 @@ If you add a note:
 
 | Note | Section | Why |
 |---|---|---|
-| `Ransomware.md` | 06 or 08 | High-frequency, high-impact scenario |
-| `Digital-Forensics.md` | 08 | Deep dive beyond the practice notes |
-| `Cloud-Detection.md` | 06 | AWS/Azure/GCP-specific TTPs |
-| `Active-Directory-Attacks.md` | 06 | Depth beyond [Credential-Attacks.md](06%20-%20Threat%20Detection/Credential-Attacks.md) |
-| `Purple-Teaming.md` | 09 | Validation and adversary emulation |
-| `Metrics-and-Reporting.md` | 11 | SOC management reporting |
-| `Container-Logging.md` | 02 | Runtime vs in-container collection depth |
+| `Metrics-and-Reporting.md` | 11 | SOC management reporting, MTTD/MTTR KPIs, SLAs |
+| `API-Security-Monitoring.md` | 04 | OWASP API Top 10, tokens, abuse detection |
+| `Zero-Trust-Architecture.md` | 03 | ZTNA, continuous verification, micro-segmentation |
 
 ---
 
@@ -522,9 +524,9 @@ If you add a note:
 ### Structure of the library
 
 ```
-64 study notes
+70 study notes
 11 progressive sections
-~36,500 lines
+~38,200 lines
 0 external dependencies (plain Markdown)
 ```
 
