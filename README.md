@@ -67,7 +67,7 @@ The goal is that an analyst can read a note once to learn, and open it again mid
 1. Open the folder `SOC ANALYST ROADMAP`.
 2. Read this README.
 3. Create a study log (`study-log.md`) with one line per session: date, note, sections, what confused you.
-4. Start with `01 - Networking Fundamentals/TCP-IP.md`.
+4. Start with [01 - Networking Fundamentals/TCP-IP.md](01%20-%20Networking%20Fundamentals/TCP-IP.md).
 5. Work top-to-bottom through a section, then take the self-test **before** moving on.
 6. Do the lab plan for at least one note per section — reading alone does not build skill.
 7. Practice on a platform from section 10 in parallel (2–3 hours/week).
@@ -119,122 +119,122 @@ SOC ANALYST ROADMAP/
 
 | File | Lines | Covers |
 |---|---:|---|
-| `TCP-IP.md` | 893 | OSI/TCP-IP, handshakes, flags, ports, subnetting |
-| `HTTP-HTTPS.md` | 874 | Requests, headers, status codes, TLS, proxies |
-| `DNS.md` | 754 | Resolution, record types, tunnelling, logs |
-| `Routing-and-Switching.md` | 774 | L2/L3, VLANs, ARP, NAT, segmentation |
-| `VPNs.md` | 779 | Tunnels, IPsec/SSL, split tunnelling, logs |
-| `Firewalls.md` | 700 | Rules, stateful inspection, NAT, evasion |
+| [TCP-IP.md](01%20-%20Networking%20Fundamentals/TCP-IP.md) | 893 | OSI/TCP-IP, handshakes, flags, ports, subnetting |
+| [HTTP-HTTPS.md](01%20-%20Networking%20Fundamentals/HTTP-HTTPS.md) | 874 | Requests, headers, status codes, TLS, proxies |
+| [DNS.md](01%20-%20Networking%20Fundamentals/DNS.md) | 754 | Resolution, record types, tunnelling, logs |
+| [Routing-and-Switching.md](01%20-%20Networking%20Fundamentals/Routing-and-Switching.md) | 774 | L2/L3, VLANs, ARP, NAT, segmentation |
+| [VPNs.md](01%20-%20Networking%20Fundamentals/VPNs.md) | 779 | Tunnels, IPsec/SSL, split tunnelling, logs |
+| [Firewalls.md](01%20-%20Networking%20Fundamentals/Firewalls.md) | 700 | Rules, stateful inspection, NAT, evasion |
 
 ### 02 — Operating Systems (5,829 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Windows.md` | 749 | Architecture, services, registry, accounts |
-| `Windows-Event-Logs.md` | 817 | Event IDs, audit policy, key investigations |
-| `Linux.md` | 827 | Filesystem, processes, services, hardening |
-| `File-Systems.md` | 831 | NTFS/ext4, metadata, MACB, artefacts |
-| `Permissions.md` | 747 | ACLs, sudo, SUID, privilege models |
-| `Processes.md` | 707 | Process trees, lineage, injection, memory |
-| `linuxlog.md` | 1,151 | syslog, journald, auditd, tampering, forwarding |
+| [Windows.md](02%20-%20Operating%20Systems/Windows.md) | 749 | Architecture, services, registry, accounts |
+| [Windows-Event-Logs.md](02%20-%20Operating%20Systems/Windows-Event-Logs.md) | 817 | Event IDs, audit policy, key investigations |
+| [Linux.md](02%20-%20Operating%20Systems/Linux.md) | 827 | Filesystem, processes, services, hardening |
+| [File-Systems.md](02%20-%20Operating%20Systems/File-Systems.md) | 831 | NTFS/ext4, metadata, MACB, artefacts |
+| [Permissions.md](02%20-%20Operating%20Systems/Permissions.md) | 747 | ACLs, sudo, SUID, privilege models |
+| [Processes.md](02%20-%20Operating%20Systems/Processes.md) | 707 | Process trees, lineage, injection, memory |
+| [linuxlog.md](02%20-%20Operating%20Systems/linuxlog.md) | 1,151 | syslog, journald, auditd, tampering, forwarding |
 
 ### 03 — Cybersecurity Fundamentals (3,583 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `CIA-Triad.md` | 523 | Confidentiality, integrity, availability |
-| `Authentication.md` | 643 | Passwords, MFA, sessions, SSO, tokens |
-| `Common-Attacks.md` | 560 | Phishing, web, network, credential attacks |
-| `Malware.md` | 628 | Types, stages, persistence, behaviour |
-| `MITRE-ATTACK.md` | 571 | Tactics, techniques, mapping, coverage |
-| `Vulnerabilities.md` | 658 | CVE/CVSS, exploitation, patch management |
+| [CIA-Triad.md](03%20-%20Cybersecurity%20Fundamentals/CIA-Triad.md) | 523 | Confidentiality, integrity, availability |
+| [Authentication.md](03%20-%20Cybersecurity%20Fundamentals/Authentication.md) | 643 | Passwords, MFA, sessions, SSO, tokens |
+| [Common-Attacks.md](03%20-%20Cybersecurity%20Fundamentals/Common-Attacks.md) | 560 | Phishing, web, network, credential attacks |
+| [Malware.md](03%20-%20Cybersecurity%20Fundamentals/Malware.md) | 628 | Types, stages, persistence, behaviour |
+| [MITRE-ATTACK.md](03%20-%20Cybersecurity%20Fundamentals/MITRE-ATTACK.md) | 571 | Tactics, techniques, mapping, coverage |
+| [Vulnerabilities.md](03%20-%20Cybersecurity%20Fundamentals/Vulnerabilities.md) | 658 | CVE/CVSS, exploitation, patch management |
 
 ### 04 — Security Monitoring (4,092 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Alerting.md` | 1,596 | Alert design, triage ops, metrics **+ Part II: alert engineering (§21–§45)** |
-| `SIEM.md` | 555 | Architecture, ingestion, correlation, use cases |
-| `Logs.md` | 503 | Sources, formats, collection, retention |
-| `EDR.md` | 544 | Telemetry, detections, response, evasion |
-| `IDS-IPS.md` | 386 | Signatures, anomalies, placement, tuning |
-| `Network-Traffic.md` | 508 | Flows, PCAP, protocols, beaconing |
+| [Alerting.md](04%20-%20Security%20Monitoring/Alerting.md) | 1,596 | Alert design, triage ops, metrics **+ Part II: alert engineering (§21–§45)** |
+| [SIEM.md](04%20-%20Security%20Monitoring/SIEM.md) | 555 | Architecture, ingestion, correlation, use cases |
+| [Logs.md](04%20-%20Security%20Monitoring/Logs.md) | 503 | Sources, formats, collection, retention |
+| [EDR.md](04%20-%20Security%20Monitoring/EDR.md) | 544 | Telemetry, detections, response, evasion |
+| [IDS-IPS.md](04%20-%20Security%20Monitoring/IDS-IPS.md) | 386 | Signatures, anomalies, placement, tuning |
+| [Network-Traffic.md](04%20-%20Security%20Monitoring/Network-Traffic.md) | 508 | Flows, PCAP, protocols, beaconing |
 
-> `Alerting.md` is deliberately the longest note: **Part I (§1–§20)** covers the SOC queue; **Part II (§21–§45)** is a full alert-engineering course (classification, confidence scoring, windows, rule chaining, testing, precision/recall, ATT&CK coverage, versioning, SLA, automation).
+> [Alerting.md](04%20-%20Security%20Monitoring/Alerting.md) is deliberately the longest note: **Part I (§1–§20)** covers the SOC queue; **Part II (§21–§45)** is a full alert-engineering course (classification, confidence scoring, windows, rule chaining, testing, precision/recall, ATT&CK coverage, versioning, SLA, automation).
 
 ### 05 — SIEM (4,004 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Splunk.md` | 590 | SPL, indexes, sourcetypes, apps |
-| `Microsoft-Sentinel.md` | 597 | KQL, Log Analytics, analytics rules, Workbooks |
-| `Elastic-Security.md` | 494 | Elastic/ELK, EQL, detections, cases |
-| `wazuh.md` | 571 | Wazuh manager/agents, rules, decoders, XDR |
-| `Queries.md` | 654 | Cross-platform query patterns |
-| `Detection-Rules.md` | 568 | Rule lifecycle, tuning, versioning, retirement |
-| `Log-Collection.md` | 530 | Agents, forwarders, parsers, pipelines |
+| [Splunk.md](05%20-%20SIEM/Splunk.md) | 590 | SPL, indexes, sourcetypes, apps |
+| [Microsoft-Sentinel.md](05%20-%20SIEM/Microsoft-Sentinel.md) | 597 | KQL, Log Analytics, analytics rules, Workbooks |
+| [Elastic-Security.md](05%20-%20SIEM/Elastic-Security.md) | 494 | Elastic/ELK, EQL, detections, cases |
+| [wazuh.md](05%20-%20SIEM/wazuh.md) | 571 | Wazuh manager/agents, rules, decoders, XDR |
+| [Queries.md](05%20-%20SIEM/Queries.md) | 654 | Cross-platform query patterns |
+| [Detection-Rules.md](05%20-%20SIEM/Detection-Rules.md) | 568 | Rule lifecycle, tuning, versioning, retirement |
+| [Log-Collection.md](05%20-%20SIEM/Log-Collection.md) | 530 | Agents, forwarders, parsers, pipelines |
 
 ### 06 — Threat Detection (2,660 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Brute-Force.md` | 433 | Password guessing/spray, thresholds, response |
-| `Credential-Attacks.md` | 448 | Dumping, pass-the-hash, Kerberos abuse |
-| `Lateral-Movement.md` | 483 | SMB, RDP, WinRM, WMI, service creation |
-| `Malware.md` | 439 | Execution chains, C2, persistence, triage |
-| `Phishing.md` | 428 | Headers, URLs, attachments, BEC |
-| `Suspicious-Processes.md` | 429 | LOLBins, lineage, injection, masquerading |
+| [Brute-Force.md](06%20-%20Threat%20Detection/Brute-Force.md) | 433 | Password guessing/spray, thresholds, response |
+| [Credential-Attacks.md](06%20-%20Threat%20Detection/Credential-Attacks.md) | 448 | Dumping, pass-the-hash, Kerberos abuse |
+| [Lateral-Movement.md](06%20-%20Threat%20Detection/Lateral-Movement.md) | 483 | SMB, RDP, WinRM, WMI, service creation |
+| [Malware.md](06%20-%20Threat%20Detection/Malware.md) | 439 | Execution chains, C2, persistence, triage |
+| [Phishing.md](06%20-%20Threat%20Detection/Phishing.md) | 428 | Headers, URLs, attachments, BEC |
+| [Suspicious-Processes.md](06%20-%20Threat%20Detection/Suspicious-Processes.md) | 429 | LOLBins, lineage, injection, masquerading |
 
 ### 07 — Investigation (3,030 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Alert-Triage.md` | 443 | Verdicts, evidence, decision trees, escalation |
-| `Log-Analysis.md` | 522 | Parsing, baselining, sequence, gaps |
-| `IOC-Analysis.md` | 521 | IOC/IOA, Pyramid of Pain, retro-hunting, decay |
-| `Timeline-Analysis.md` | 480 | Normalisation, super-timelines, gap analysis |
-| `Root-Cause-Analysis.md` | 546 | 5 Whys, fishbone, fault tree, control failures |
-| `Threat-Intelligence.md` | 518 | Intel cycle, PIRs, Diamond Model, grading |
+| [Alert-Triage.md](07%20-%20Investigation/Alert-Triage.md) | 443 | Verdicts, evidence, decision trees, escalation |
+| [Log-Analysis.md](07%20-%20Investigation/Log-Analysis.md) | 522 | Parsing, baselining, sequence, gaps |
+| [IOC-Analysis.md](07%20-%20Investigation/IOC-Analysis.md) | 521 | IOC/IOA, Pyramid of Pain, retro-hunting, decay |
+| [Timeline-Analysis.md](07%20-%20Investigation/Timeline-Analysis.md) | 480 | Normalisation, super-timelines, gap analysis |
+| [Root-Cause-Analysis.md](07%20-%20Investigation/Root-Cause-Analysis.md) | 546 | 5 Whys, fishbone, fault tree, control failures |
+| [Threat-Intelligence.md](07%20-%20Investigation/Threat-Intelligence.md) | 518 | Intel cycle, PIRs, Diamond Model, grading |
 
 ### 08 — Incident Response (2,234 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Identification.md` | 505 | Declaration, severity, roles, legal clocks |
-| `Containment.md` | 464 | Isolation ladder, identity/cloud/ransomware |
-| `Eradication.md` | 493 | Persistence inventory, AD/cloud cleanup, verification |
-| `Recovery.md` | 392 | Backups, clean rebuild, phases, hypercare |
-| `Lessons-Learned.md` | 380 | Blameless review, actions, metrics, maturity |
+| [Identification.md](08%20-%20Incident%20Response/Identification.md) | 505 | Declaration, severity, roles, legal clocks |
+| [Containment.md](08%20-%20Incident%20Response/Containment.md) | 464 | Isolation ladder, identity/cloud/ransomware |
+| [Eradication.md](08%20-%20Incident%20Response/Eradication.md) | 493 | Persistence inventory, AD/cloud cleanup, verification |
+| [Recovery.md](08%20-%20Incident%20Response/Recovery.md) | 392 | Backups, clean rebuild, phases, hypercare |
+| [Lessons-Learned.md](08%20-%20Incident%20Response/Lessons-Learned.md) | 380 | Blameless review, actions, metrics, maturity |
 
 ### 09 — Automation (2,727 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `APIs.md` | 512 | REST, auth, pagination, retries, webhooks |
-| `Bash.md` | 519 | Text pipelines, jq, SOC recipes, cron |
-| `PowerShell.md` | 551 | Objects, event logs, persistence, Graph |
-| `Python.md` | 676 | Requests, parsing, testing, packaging |
-| `SOAR.md` | 469 | Playbooks, integrations, approval tiers |
+| [APIs.md](09%20-%20Automation/APIs.md) | 512 | REST, auth, pagination, retries, webhooks |
+| [Bash.md](09%20-%20Automation/Bash.md) | 519 | Text pipelines, jq, SOC recipes, cron |
+| [PowerShell.md](09%20-%20Automation/PowerShell.md) | 551 | Objects, event logs, persistence, Graph |
+| [Python.md](09%20-%20Automation/Python.md) | 676 | Requests, parsing, testing, packaging |
+| [SOAR.md](09%20-%20Automation/SOAR.md) | 469 | Playbooks, integrations, approval tiers |
 
 ### 10 — Practice (1,384 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `Blue-Team-Labs-Online.md` | 269 | BTLO challenge method and plan |
-| `CyberDefenders.md` | 274 | DFIR artefact workflow (memory/disk/PCAP) |
-| `LetsDefend.md` | 275 | Simulated SOC loop and case writing |
-| `Splunk-Labs.md` | 328 | SPL practice ladder, detections, dashboards |
-| `TryHackMe.md` | 238 | Guided paths and attacker empathy |
+| [Blue-Team-Labs-Online.md](10%20-%20Practice/Blue-Team-Labs-Online.md) | 269 | BTLO challenge method and plan |
+| [CyberDefenders.md](10%20-%20Practice/CyberDefenders.md) | 274 | DFIR artefact workflow (memory/disk/PCAP) |
+| [LetsDefend.md](10%20-%20Practice/LetsDefend.md) | 275 | Simulated SOC loop and case writing |
+| [Splunk-Labs.md](10%20-%20Practice/Splunk-Labs.md) | 328 | SPL practice ladder, detections, dashboards |
+| [TryHackMe.md](10%20-%20Practice/TryHackMe.md) | 238 | Guided paths and attacker empathy |
 
 ### 11 — Career (1,634 lines)
 
 | File | Lines | Covers |
 |---|---:|---|
-| `SOC-Analyst-L1.md` | 284 | Entry role, KPIs, interviews, first 90 days |
-| `SOC-Analyst-L2.md` | 261 | Scoping, narratives, mentoring, growth |
-| `Detection-Engineer.md` | 370 | Detection-as-code, testing, coverage, CI |
-| `Incident-Responder.md` | 343 | Incident command, evidence, comms, legal |
-| `Threat-Hunter.md` | 376 | Hypotheses, patterns, findings → detections |
+| [SOC-Analyst-L1.md](11%20-%20Career/SOC-Analyst-L1.md) | 284 | Entry role, KPIs, interviews, first 90 days |
+| [SOC-Analyst-L2.md](11%20-%20Career/SOC-Analyst-L2.md) | 261 | Scoping, narratives, mentoring, growth |
+| [Detection-Engineer.md](11%20-%20Career/Detection-Engineer.md) | 370 | Detection-as-code, testing, coverage, CI |
+| [Incident-Responder.md](11%20-%20Career/Incident-Responder.md) | 343 | Incident command, evidence, comms, legal |
+| [Threat-Hunter.md](11%20-%20Career/Threat-Hunter.md) | 376 | Hypotheses, patterns, findings → detections |
 
 ---
 
@@ -317,7 +317,7 @@ Most notes follow a consistent ~20-section pattern. Not every note needs every s
 | **Practice** | §19–20 | Lab plan, 15–20 self-test questions |
 | **Revision** | §21 | One-page checklist for interview prep |
 
-Large notes extend this into **Part II** for advanced material (notably `Alerting.md`).
+Large notes extend this into **Part II** for advanced material (notably [Alerting.md](04%20-%20Security%20Monitoring/Alerting.md)).
 
 ---
 
@@ -345,9 +345,9 @@ Large notes extend this into **Part II** for advanced material (notably `Alertin
 
 ### Filenames
 
-- Hyphens, no slashes or parentheses (`TCP-IP.md`, not `TCP/IP.md`).
+- Hyphens, no slashes or parentheses ([TCP-IP.md](01%20-%20Networking%20Fundamentals/TCP-IP.md), not [TCP/IP.md](01%20-%20Networking%20Fundamentals/TCP-IP.md)).
 - Section folders are numbered `01`–`11` for natural sort order.
-- One topic per file; no mega-files except `Alerting.md` (intentionally two-part).
+- One topic per file; no mega-files except [Alerting.md](04%20-%20Security%20Monitoring/Alerting.md) (intentionally two-part).
 
 ### Content
 
@@ -366,10 +366,10 @@ Large notes extend this into **Part II** for advanced material (notably `Alertin
 
 Related topics are cross-linked rather than repeated. For example:
 
-- Alert design lives in `04/Alerting.md`; triage mechanics in `07/Alert-Triage.md`.
-- IOC types live in `07/IOC-Analysis.md`; the TI programme in `07/Threat-Intelligence.md`.
-- Log formats live in `04/Logs.md`; log *analysis method* in `07/Log-Analysis.md`.
-- Rule lifecycle lives in `05/Detection-Rules.md`; alert engineering maths in `04/Alerting.md` Part II.
+- Alert design lives in [04/Alerting.md](04%20-%20Security%20Monitoring/Alerting.md); triage mechanics in [07/Alert-Triage.md](07%20-%20Investigation/Alert-Triage.md).
+- IOC types live in [07/IOC-Analysis.md](07%20-%20Investigation/IOC-Analysis.md); the TI programme in [07/Threat-Intelligence.md](07%20-%20Investigation/Threat-Intelligence.md).
+- Log formats live in [04/Logs.md](04%20-%20Security%20Monitoring/Logs.md); log *analysis method* in [07/Log-Analysis.md](07%20-%20Investigation/Log-Analysis.md).
+- Rule lifecycle lives in [05/Detection-Rules.md](05%20-%20SIEM/Detection-Rules.md); alert engineering maths in [04/Alerting.md](04%20-%20Security%20Monitoring/Alerting.md) Part II.
 
 If you find yourself reading the same paragraph twice, that is a bug — report it.
 
@@ -485,7 +485,7 @@ If you add a note:
 | `Ransomware.md` | 06 or 08 | High-frequency, high-impact scenario |
 | `Digital-Forensics.md` | 08 | Deep dive beyond the practice notes |
 | `Cloud-Detection.md` | 06 | AWS/Azure/GCP-specific TTPs |
-| `Active-Directory-Attacks.md` | 06 | Depth beyond `Credential-Attacks.md` |
+| `Active-Directory-Attacks.md` | 06 | Depth beyond [Credential-Attacks.md](06%20-%20Threat%20Detection/Credential-Attacks.md) |
 | `Purple-Teaming.md` | 09 | Validation and adversary emulation |
 | `Metrics-and-Reporting.md` | 11 | SOC management reporting |
 | `Container-Logging.md` | 02 | Runtime vs in-container collection depth |
@@ -499,7 +499,7 @@ If you add a note:
 | Platform pricing | **Not stated** | Sections 10 deliberately avoid prices and exact feature lists; verify on each platform's site. |
 | Certifications | **Guidance only** | Section 11 lists common certs, not a recommendation to buy any. |
 | Tool versions | **Era-dependent** | Commands reflect common syntax; verify against your installed version. |
-| Legal specifics | **Jurisdiction-dependent** | Notification clocks in `08/Identification.md` are illustrative; confirm with legal. |
+| Legal specifics | **Jurisdiction-dependent** | Notification clocks in [08/Identification.md](08%20-%20Incident%20Response/Identification.md) are illustrative; confirm with legal. |
 
 ---
 
@@ -534,10 +534,10 @@ If you add a note:
 
 | | |
 |---|---|
-| **Start here** | `01 - Networking Fundamentals/TCP-IP.md` |
+| **Start here** | [01 - Networking Fundamentals/TCP-IP.md](01%20-%20Networking%20Fundamentals/TCP-IP.md) |
 | **Core path** | 01 → 07 |
 | **Fastest interview prep** | Revision checklists in each note + section 11 |
-| **Hardest note** | `04 - Security Monitoring/Alerting.md` (1,596 lines, two parts) |
+| **Hardest note** | [04 - Security Monitoring/Alerting.md](04%20-%20Security%20Monitoring/Alerting.md) (1,596 lines, two parts) |
 | **Most practical** | `07 - Investigation/*` and `10 - Practice/*` |
 | **Best next step** | Do one lab from section 10 this week |
 

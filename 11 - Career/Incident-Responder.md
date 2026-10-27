@@ -1,7 +1,9 @@
 # Incident Responder — Career Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Detection Engineer](Detection-Engineer.md) · [SOC Analyst L1 →](SOC-Analyst-L1.md)
+
 > Goal: understand the IR role — the decisions, the pressure, the evidence, and the writing that follows.
-> IR phases → `08 - Incident Response/`; forensics practice → `10 - Practice/CyberDefenders.md`.
+> IR phases → `08 - Incident Response/`; forensics practice → [10 - Practice/CyberDefenders.md](../10%20-%20Practice/CyberDefenders.md).
 
 ---
 
@@ -341,3 +343,7 @@ Set update cadence (e.g. every 60 min) and stick to it.
 - [ ] Portfolio.
 - [ ] 90-day plan.
 - [ ] Mistakes memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Detection Engineer](Detection-Engineer.md) · [SOC Analyst L1 →](SOC-Analyst-L1.md)

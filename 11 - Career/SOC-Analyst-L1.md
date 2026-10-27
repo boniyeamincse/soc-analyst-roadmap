@@ -1,5 +1,7 @@
 # SOC Analyst L1 — Career Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Incident Responder](Incident-Responder.md) · [SOC Analyst L2 →](SOC-Analyst-L2.md)
+
 > Goal: know exactly what an L1 does, what is expected in the first 90 days, and how to prove you can do it.
 
 ---
@@ -282,3 +284,7 @@ L1 (0–2 yrs) → L2 (2–4 yrs) → Senior/IR/Hunting/Detection (4+)
 - [ ] 90-day plan and questions to ask.
 - [ ] Mistakes list.
 - [ ] Growth path.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Incident Responder](Incident-Responder.md) · [SOC Analyst L2 →](SOC-Analyst-L2.md)

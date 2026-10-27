@@ -1,7 +1,9 @@
 # Authentication — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Linux Logging](../02%20-%20Operating%20Systems/linuxlog.md) · [CIA Triad →](CIA-Triad.md)
+
 > Goal: understand how identity is **proven**, how that proof fails, and how to detect and triage authentication attacks across Windows/AD, Linux, web, and cloud.
-> Related: `Permissions.md` (authorisation), `Windows-Event-Logs.md` (logon events), `Common-Attacks.md`, `Credential-Attacks` in section 06.
+> Related: [Permissions.md](../02%20-%20Operating%20Systems/Permissions.md) (authorisation), [Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md) (logon events), [Common-Attacks.md](Common-Attacks.md), `Credential-Attacks` in section 06.
 
 ---
 
@@ -40,7 +42,7 @@
 |---|---|
 | **Identification** | Claiming an identity (username, email). |
 | **Authentication (AuthN)** | Proving the claim. |
-| **Authorisation (AuthZ)** | What the identity may do (see `Permissions.md`). |
+| **Authorisation (AuthZ)** | What the identity may do (see [Permissions.md](../02%20-%20Operating%20Systems/Permissions.md)). |
 | **Accounting/Auditing** | Recording who did what. |
 | **Principal** | User, service, device, or application identity. |
 | **Credential** | Secret or artefact used to prove identity. |
@@ -156,7 +158,7 @@
 - **KRBTGT** compromise → Golden Ticket (reset twice).
 - **Delegation** (unconstrained/constrained/RBCD) enables impersonation.
 
-### 6.3 Windows logon types (see `Windows-Event-Logs.md`)
+### 6.3 Windows logon types (see [Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md))
 
 Interactive 2, Network 3, Batch 4, Service 5, Unlock 7, NetworkCleartext 8, NewCredentials 9, **RemoteInteractive 10**, CachedInteractive 11.
 
@@ -641,3 +643,7 @@ aws iam get-account-password-policy
 - [ ] Investigation: identity → attempt → source → legitimacy → session activity → scope → respond → document.
 - [ ] Triage: brute force, spray, fatigue, impossible travel, legacy, token theft, consent, roasting.
 - [ ] Controls: phishing-resistant MFA, conditional access, block legacy, password policy, privileged access, service accounts, session security, monitoring, user reporting, hygiene.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Linux Logging](../02%20-%20Operating%20Systems/linuxlog.md) · [CIA Triad →](CIA-Triad.md)

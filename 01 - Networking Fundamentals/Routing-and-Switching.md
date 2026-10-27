@@ -1,7 +1,9 @@
 # Routing & Switching — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← HTTP / HTTPS](HTTP-HTTPS.md) · [TCP/IP →](TCP-IP.md)
+
 > Goal: understand how frames and packets actually reach their destination, so you can **detect lateral movement, ARP/VLAN attacks, rogue DHCP, scanning, and routing anomalies** from switch/router/flow telemetry.
-> Firewall policy/NAT → `Firewalls.md`; DNS → `DNS.md`; HTTP → `HTTP-HTTPS.md`; VPN tunnels → `VPNs.md`. This note covers L2/L3 forwarding.
+> Firewall policy/NAT → [Firewalls.md](Firewalls.md); DNS → [DNS.md](DNS.md); HTTP → [HTTP-HTTPS.md](HTTP-HTTPS.md); VPN tunnels → [VPNs.md](VPNs.md). This note covers L2/L3 forwarding.
 
 ---
 
@@ -178,7 +180,7 @@ TCP segment:   | Src Port | Dst Port | Seq | Ack | Flags | Window | Checksum | U
 - Initial TTL is OS-dependent: **Linux/macOS 64**, **Windows 128**, **network devices 255**.
 - Each router decrements by 1; **traceroute** uses TTL expiry + ICMP.
 - **TTL anomalies** suggest: spoofed packets, tunnels, NAT/proxy insertion, or a different OS than claimed.
-- **Asymmetric routing** — reply takes a different path; breaks stateful firewalls and confuses investigations (see `Firewalls.md` §3).
+- **Asymmetric routing** — reply takes a different path; breaks stateful firewalls and confuses investigations (see [Firewalls.md](Firewalls.md) §3).
 
 ---
 
@@ -242,7 +244,7 @@ TCP segment:   | Src Port | Dst Port | Seq | Ack | Flags | Window | Checksum | U
 | Tech | What it does | Detection angle |
 |---|---|---|
 | **GRE** | Encapsulates L3 in IP (proto 47) | Unusual GRE between hosts; covert tunnels. |
-| **IPsec** | Encrypted L3 tunnel | See `VPNs.md`; egress to non-approved peers. |
+| **IPsec** | Encrypted L3 tunnel | See [VPNs.md](VPNs.md); egress to non-approved peers. |
 | **VXLAN** | L2 over UDP 4789 | DC/cloud; unexpected VXLAN from endpoints. |
 | **GENEVE** | Overlay (UDP 6081) | Similar. |
 | **SD-WAN** | Policy-based WAN overlay | New flows/encryption; vendor-specific logs. |
@@ -478,10 +480,10 @@ index=zeek sourcetype=arp
 - STP events around the same time.
 
 ### Step 5 — Correlate
-- Firewall allow/deny for the same 5-tuple (`Firewalls.md`).
+- Firewall allow/deny for the same 5-tuple ([Firewalls.md](Firewalls.md)).
 - EDR process/network events.
 - Auth logs (RDP/SMB/WinRM logons).
-- DNS for domain resolution (`DNS.md`).
+- DNS for domain resolution ([DNS.md](DNS.md)).
 
 ### Step 6 — Enrich external endpoints
 - IP reputation, ASN, geo, passive DNS.
@@ -772,3 +774,7 @@ show running-config | include (vlan|spanning-tree|arp|dhcp)
 - [ ] Triage: ARP spoof, MAC flood, rogue DHCP, VLAN hop, STP change, internal scan, lateral movement, BGP anomaly, broadcast storm.
 - [ ] Commands: `ip route/neigh`, `bridge`, `ss`, `traceroute/mtr`, `tcpdump -e`, `Get-NetRoute/Neighbor`, Cisco `show` commands.
 - [ ] Hardening: segmentation, port security, snooping/DAI, NAC, management plane, routing auth/RPKI, monitoring, NTP, inventory, change control.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← HTTP / HTTPS](HTTP-HTTPS.md) · [TCP/IP →](TCP-IP.md)

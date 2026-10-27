@@ -1,7 +1,9 @@
 # Firewalls — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← DNS](DNS.md) · [HTTP / HTTPS →](HTTP-HTTPS.md)
+
 > Goal: understand how firewalls make and log decisions, so you can **read perimeter/egress logs, tell a blocked scan from a real intrusion, hunt for C2/exfil, and tune noisy rules**.
-> DNS-specific concepts live in `DNS.md`; VPN tunnelling in `VPNs.md`. This note does not repeat them.
+> DNS-specific concepts live in [DNS.md](DNS.md); VPN tunnelling in [VPNs.md](VPNs.md). This note does not repeat them.
 
 ---
 
@@ -165,7 +167,7 @@ Consequences:
 | **URL filtering** | Category + reputation per URL/FQDN | Phishing/malware category hits; encrypted URLs limited. |
 | **IPS** | Signature/anomaly detection inline | Exploit attempts, scan signatures; tuning required. |
 | **TLS/SSL inspection** | Decrypts outbound/inbound TLS | Deep visibility; privacy/legal and performance costs; pinned apps break. |
-| **DNS security** | Sinkholes/blocks malicious domains at the firewall | Complements resolver logs; see `DNS.md`. |
+| **DNS security** | Sinkholes/blocks malicious domains at the firewall | Complements resolver logs; see [DNS.md](DNS.md). |
 | **File/sandbox** | Extracts and detonates files | Zero-day verdicts; latency and coverage limits. |
 | **User-ID** | Maps IP → AD user | Turns IP logs into user attribution; breaks on shared hosts/VPN. |
 | **Geo-IP / geo-block** | Blocks by country | Reduces noise, but attackers use proxies/cloud. |
@@ -263,7 +265,7 @@ SOC gotchas:
 | 22 | SSH | Admin access; brute force; tunneling. |
 | 23 | Telnet | Cleartext; should be rare. |
 | 25/587 | SMTP submission | Spam/mail abuse. |
-| 53 | DNS | Tunneling (see `DNS.md`). |
+| 53 | DNS | Tunneling (see [DNS.md](DNS.md)). |
 | 80/443 | HTTP/S | C2, exfil, phishing. |
 | 135/139/445 | RPC/NetBIOS/SMB | Lateral movement, ransomware. |
 | 389/636 | LDAP/LDAPS | AD enumeration; cleartext binds. |
@@ -417,7 +419,7 @@ level: medium
 ### 10.5 Correlation sources
 
 Firewall logs alone are shallow. Pair with:
-- **DNS** (`DNS.md`) — domain behind the IP.
+- **DNS** ([DNS.md](DNS.md)) — domain behind the IP.
 - **Proxy/TLS** — SNI, URL, user-agent, bytes.
 - **EDR** — process and user.
 - **Authentication** — VPN/AD logins around the same time.
@@ -451,7 +453,7 @@ Firewall logs alone are shallow. Pair with:
 
 ### Step 6 — Enrich destination
 - IP reputation, ASN, hosting/cloud, geo, Tor/VPN, passive DNS.
-- Domain popularity and age (see `DNS.md` §12/§15 for enrichment discipline).
+- Domain popularity and age (see [DNS.md](DNS.md) §12/§15 for enrichment discipline).
 
 ### Step 7 — Scope
 - Search 24h/7d/30d for same dst IP/domain across all sources.
@@ -698,3 +700,7 @@ gcloud compute firewall-rules describe RULE_NAME
 - [ ] False positives: internet noise, CDNs, backups, monitoring heartbeats, vendor agents, VPN user errors.
 - [ ] Hardening: default deny, egress filtering, least privilege, segmentation, logging, rule review, change audit, MFA, patch, cloud SG discipline.
 - [ ] Commands: nft/iptables/ufw/firewalld, `Get-NetFirewallRule`, `netsh`, `tcpdump`, AWS/Azure/GCP CLIs.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← DNS](DNS.md) · [HTTP / HTTPS →](HTTP-HTTPS.md)

@@ -1,7 +1,9 @@
 # Permissions — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Linux](Linux.md) · [Processes →](Processes.md)
+
 > Goal: understand how Linux, Windows, macOS, and cloud permissions actually work, so you can **spot privilege-escalation paths, over-permissioned accounts, exposed shares, and ACL abuse**, and explain them in an incident.
-> File-system internals → `File-Systems.md`; Linux host → `Linux.md`; Windows host → `Windows.md`; Active Directory ACL abuse → the AD skill.
+> File-system internals → [File-Systems.md](File-Systems.md); Linux host → [Linux.md](Linux.md); Windows host → [Windows.md](Windows.md); Active Directory ACL abuse → the AD skill.
 
 ---
 
@@ -745,3 +747,7 @@ gcloud storage buckets get-iam-policy gs://BUCKET
 - [ ] Triage: sensitive permission change, new admin, SUID/sudoers, weak service/task, over-privileged cloud, share exposure, mass ACL changes.
 - [ ] Commands: `chmod/chown/getfacl/setfacl/getcap/find -perm/sudo -l/getenforce/ausearch`, `icacls/Get-Acl/AccessChk/sc sdshow/Get-SmbShare/whoami /priv/auditpol`, `ls -le/csrutil/TCC`, cloud CLIs.
 - [ ] Hardening: least privilege/JIT, Linux tightening, Windows tiering/protections, service/task ACLs, share least privilege, cloud boundaries/rotation/no public, K8s RBAC/PSS, auditing/FIM, access reviews, break-glass.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Linux](Linux.md) · [Processes →](Processes.md)

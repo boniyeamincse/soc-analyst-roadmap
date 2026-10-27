@@ -1,7 +1,9 @@
 # CyberDefenders — Practice Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Blue Team Labs Online](Blue-Team-Labs-Online.md) · [LetsDefend →](LetsDefend.md)
+
 > Goal: practise DFIR-grade analysis on realistic artefacts — memory, disk, network, and Windows/Linux forensics.
-> Other platforms → `Blue-Team-Labs-Online.md`, `LetsDefend.md`.
+> Other platforms → [Blue-Team-Labs-Online.md](Blue-Team-Labs-Online.md), [LetsDefend.md](LetsDefend.md).
 
 ---
 
@@ -272,3 +274,7 @@ question | artefact | command | output snippet | answer | confidence
 - [ ] Ethics and portfolio rules.
 - [ ] Pitfalls memorised.
 - [ ] Progression ladder + 6-week plan.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Blue Team Labs Online](Blue-Team-Labs-Online.md) · [LetsDefend →](LetsDefend.md)

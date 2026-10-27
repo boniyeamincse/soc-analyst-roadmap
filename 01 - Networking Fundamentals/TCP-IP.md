@@ -1,7 +1,9 @@
 # TCP/IP — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Routing & Switching](Routing-and-Switching.md) · [VPNs →](VPNs.md)
+
 > Goal: understand IP, TCP, UDP, and ICMP at packet level so you can **read pcaps, explain connection failures, detect scans/floods/tunnels, and write reliable network detections**.
-> L2/VLAN/ARP → `Routing-and-Switching.md`; firewall policy → `Firewalls.md`; DNS → `DNS.md`; HTTP → `HTTP-HTTPS.md`.
+> L2/VLAN/ARP → [Routing-and-Switching.md](Routing-and-Switching.md); firewall policy → [Firewalls.md](Firewalls.md); DNS → [DNS.md](DNS.md); HTTP → [HTTP-HTTPS.md](HTTP-HTTPS.md).
 
 ---
 
@@ -340,8 +342,8 @@ Zeek `conn_state` mapping (useful):
 | 22 | SSH | Admin, brute force, tunnels. |
 | 23 | Telnet | Cleartext; should be gone. |
 | 25/465/587 | SMTP | Mail abuse. |
-| 53 | DNS | Tunneling (`DNS.md`). |
-| 67/68 | DHCP | Rogue server (`Routing-and-Switching.md`). |
+| 53 | DNS | Tunneling ([DNS.md](DNS.md)). |
+| 67/68 | DHCP | Rogue server ([Routing-and-Switching.md](Routing-and-Switching.md)). |
 | 69 | TFTP | Config exfil, malware staging. |
 | 80/443 | HTTP/S | Web, C2, exfil. |
 | 88 | Kerberos | AD attacks. |
@@ -386,8 +388,8 @@ Zeek `conn_state` mapping (useful):
 | **IP spoofing** | Forged source IP (blind attacks, reflection) | No return traffic; TTL/OS mismatch; ingress filtering (BCP38) missing. |
 | **TCP session hijacking** | Inject into an established session | Duplicate/odd seq, resets, sudden UA/IP change. |
 | **RST injection** | Forge reset to kill connections | Unexplained mid-session RSTs, censorship/firewall behaviour. |
-| **DNS spoofing** | Forged DNS replies | See `DNS.md`. |
-| **ARP spoofing** | Forged ARP | See `Routing-and-Switching.md`. |
+| **DNS spoofing** | Forged DNS replies | See [DNS.md](DNS.md). |
+| **ARP spoofing** | Forged ARP | See [Routing-and-Switching.md](Routing-and-Switching.md). |
 | **ICMP redirect** | Forged gateway redirect | Type 5 packets; route changes. |
 | **Tunneling** | Data in ICMP/DNS/GRE/HTTP | Protocol anomalies, payload size/entropy. |
 | **Covert timing channel** | Encode via timing | Statistical analysis; hard. |
@@ -477,7 +479,7 @@ tshark -r cap.pcap -Y 'tcp.stream eq 3' -V
 | **Zeek `conn.log`** | `id.orig_h/p`, `id.resp_h/p`, `proto`, `duration`, `orig_bytes`, `resp_bytes`, `conn_state`, `history` | Best passive metadata. |
 | **Zeek `weird.log`** | Protocol anomalies | Malformed/odd traffic. |
 | **Suricata** | Alerts, flow, protocol metadata | Signature + anomaly. |
-| **Firewall** | Action, rule, app, bytes | See `Firewalls.md`. |
+| **Firewall** | Action, rule, app, bytes | See [Firewalls.md](Firewalls.md). |
 | **IDS/IPS** | Alert signature, severity, payload snippet | Tuning needed. |
 | **EDR** | Process, connections | Attribution. |
 | **Switch/router** | Interface counters, ACL hits | L2/L3 context. |
@@ -652,8 +654,8 @@ level: medium
 - Compare to peer assets in the same role.
 
 ### Step 5 — Correlate
-- Firewall allow/deny (`Firewalls.md`).
-- DNS (`DNS.md`), HTTP/TLS (`HTTP-HTTPS.md`).
+- Firewall allow/deny ([Firewalls.md](Firewalls.md)).
+- DNS ([DNS.md](DNS.md)), HTTP/TLS ([HTTP-HTTPS.md](HTTP-HTTPS.md)).
 - EDR process, auth logs, switch/ARP events.
 
 ### Step 6 — Enrich external IPs
@@ -822,10 +824,10 @@ tshark -r cap.pcap -Y 'tcp.stream eq 0' -T fields -e tcp.payload
 ## 17. Hardening and recommendations
 
 - **Ingress/egress filtering (BCP38)** to stop spoofing.
-- **Stateful firewalls** at boundaries; default deny; see `Firewalls.md`.
+- **Stateful firewalls** at boundaries; default deny; see [Firewalls.md](Firewalls.md).
 - **SYN cookies / connection limits / rate limiting** on exposed services.
 - **Disable unused services and legacy protocols** (Telnet, FTP, SMBv1, LLMNR/NBT-NS if possible).
-- **Segment** networks; restrict east-west (see `Routing-and-Switching.md`).
+- **Segment** networks; restrict east-west (see [Routing-and-Switching.md](Routing-and-Switching.md)).
 - **ICMP policy** — allow necessary types, rate-limit, block redirects.
 - **Patch** network stacks and appliances; edge devices are targeted.
 - **Monitor** flows, resets, scans, fragments, and ICMP anomalies.
@@ -891,3 +893,7 @@ tshark -r cap.pcap -Y 'tcp.stream eq 0' -T fields -e tcp.payload
 - [ ] Triage: scan, SYN flood, ICMP tunnel, exfil, spoofing, RST injection, amplification.
 - [ ] Commands: `ip`, `ss`, `tcpdump`, `tshark`, Wireshark filters, `Get-NetTCPConnection`, `Test-NetConnection`.
 - [ ] Hardening: BCP38, stateful filtering, SYN cookies, disable legacy, segment, ICMP policy, patch, monitor, NTP, capture, tune, block amplifiers, control QUIC.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Routing & Switching](Routing-and-Switching.md) · [VPNs →](VPNs.md)

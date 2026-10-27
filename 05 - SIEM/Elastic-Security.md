@@ -1,7 +1,9 @@
 # Elastic Security — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Detection Rules](Detection-Rules.md) · [Log Collection →](Log-Collection.md)
+
 > Goal: use the Elastic Stack as a SIEM — ingest, search, detect, triage, and respond — and understand the index mechanics behind it.
-> Cross-platform query craft → `Queries.md`; rule engineering → `Detection-Rules.md`; collection → `Log-Collection.md`.
+> Cross-platform query craft → [Queries.md](Queries.md); rule engineering → [Detection-Rules.md](Detection-Rules.md); collection → [Log-Collection.md](Log-Collection.md).
 
 ---
 
@@ -492,3 +494,7 @@ GET logs-*/_search { "query": { "term": { "host.name": "ws01" } }, "size": 1 }
 - [ ] Hardening: TLS, auth, RBAC roles, API keys, network restriction, audit, snapshots, patches, secrets.
 - [ ] Fleet/agent policies, status, version spread, tamper protection.
 - [ ] Best practices and pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Detection Rules](Detection-Rules.md) · [Log Collection →](Log-Collection.md)

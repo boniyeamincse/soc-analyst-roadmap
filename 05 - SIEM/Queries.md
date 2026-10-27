@@ -1,7 +1,9 @@
 # Queries — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Microsoft Sentinel](Microsoft-Sentinel.md) · [Splunk →](Splunk.md)
+
 > Goal: turn a question ("did this user get compromised?") into a correct, efficient query in whichever language the platform speaks.
-> Splunk SPL depth → `Splunk.md`; Sentinel specifics → `Microsoft-Sentinel.md`; Elastic → `Elastic-Security.md`.
+> Splunk SPL depth → [Splunk.md](Splunk.md); Sentinel specifics → [Microsoft-Sentinel.md](Microsoft-Sentinel.md); Elastic → [Elastic-Security.md](Elastic-Security.md).
 
 ---
 
@@ -652,3 +654,7 @@ Version/changelog:
 - [ ] Debugging table + remove-clauses method.
 - [ ] Documentation block: name, question, platform, scope, logic, fields, FPs, owner, ATT&CK, validated, version.
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Microsoft Sentinel](Microsoft-Sentinel.md) · [Splunk →](Splunk.md)

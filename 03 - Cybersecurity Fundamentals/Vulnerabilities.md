@@ -1,7 +1,9 @@
 # Vulnerabilities — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Malware](Malware.md) · [Alerting →](../04%20-%20Security%20Monitoring/Alerting.md)
+
 > Goal: understand what a vulnerability is, how it is scored and prioritised, and how to triage **exploitation attempts** and scanner noise — without confusing a vulnerability record with an incident.
-> Attack patterns → `Common-Attacks.md`; technique mapping → `MITRE-ATTACK.md`; CIA impact framing → `CIA-Triad.md`.
+> Attack patterns → [Common-Attacks.md](Common-Attacks.md); technique mapping → [MITRE-ATTACK.md](MITRE-ATTACK.md); CIA impact framing → [CIA-Triad.md](CIA-Triad.md).
 
 ---
 
@@ -656,3 +658,7 @@ az storage container show-permissions --name C --account-name A
 - [ ] SPL/KQL/Sigma patterns.
 - [ ] Investigation: anchor → validate → activity → chain → scope → contain → eradicate/recover → document.
 - [ ] Hardening/VM program: inventory, SBOM, SLA/KEV, ASM, baselines, virtual patch, segmentation, MFA/least privilege, secret/dependency scanning, EOL, bounty/pentest, verification, metrics.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Malware](Malware.md) · [Alerting →](../04%20-%20Security%20Monitoring/Alerting.md)

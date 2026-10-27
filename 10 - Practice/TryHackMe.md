@@ -1,7 +1,9 @@
 # TryHackMe — Practice Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Splunk Labs](Splunk-Labs.md) · [Detection Engineer →](../11%20-%20Career/Detection-Engineer.md)
+
 > Goal: use THM's guided rooms to build breadth — attacker empathy included — without mistaking walkthroughs for skill.
-> SOC simulations → `LetsDefend.md`; DFIR depth → `CyberDefenders.md`.
+> SOC simulations → [LetsDefend.md](LetsDefend.md); DFIR depth → [CyberDefenders.md](CyberDefenders.md).
 
 ---
 
@@ -236,3 +238,7 @@ For each attack technique learned:
 - [ ] Pitfalls memorised.
 - [ ] Portfolio ethics.
 - [ ] 12-week plan.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Splunk Labs](Splunk-Labs.md) · [Detection Engineer →](../11%20-%20Career/Detection-Engineer.md)

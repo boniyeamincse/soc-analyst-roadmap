@@ -1,7 +1,9 @@
 # Alert Triage — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Suspicious Processes](../06%20-%20Threat%20Detection/Suspicious-Processes.md) · [IOC Analysis →](IOC-Analysis.md)
+
 > Goal: turn an alert into a defensible verdict fast — without over-investigating noise or under-investigating a breach.
-> Alert design/metrics → `04 - Security Monitoring/Alerting.md`; IOCs → `IOC-Analysis.md`; timelines → `Timeline-Analysis.md`.
+> Alert design/metrics → [04 - Security Monitoring/Alerting.md](../04%20-%20Security%20Monitoring/Alerting.md); IOCs → [IOC-Analysis.md](IOC-Analysis.md); timelines → [Timeline-Analysis.md](Timeline-Analysis.md).
 
 ---
 
@@ -248,7 +250,7 @@ Recommendation
 
 **Pivot:** message → all recipients → clicks → auth → endpoint execution.
 
-> Detail → `06 - Threat Detection/Phishing.md`.
+> Detail → [06 - Threat Detection/Phishing.md](../06%20-%20Threat%20Detection/Phishing.md).
 
 ---
 
@@ -441,3 +443,7 @@ Track per rule and per analyst (for coaching, not punishment).
 - [ ] Handover contents; escalation quality.
 - [ ] Mistakes table memorised.
 - [ ] Metrics: MTTA, triage time, escalation/conversion, reopen, SLA, FP share.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Suspicious Processes](../06%20-%20Threat%20Detection/Suspicious-Processes.md) · [IOC Analysis →](IOC-Analysis.md)

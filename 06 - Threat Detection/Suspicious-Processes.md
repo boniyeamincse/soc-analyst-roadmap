@@ -1,7 +1,9 @@
 # Suspicious Processes — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Phishing](Phishing.md) · [Alert Triage →](../07%20-%20Investigation/Alert-Triage.md)
+
 > Goal: look at a process and decide — fast — whether it is normal for this host, this user, and this time.
-> OS mechanics → `02 - Operating Systems/Processes.md`; EDR telemetry → `04 - Security Monitoring/EDR.md`; malware triage → `Malware.md`.
+> OS mechanics → [02 - Operating Systems/Processes.md](../02%20-%20Operating%20Systems/Processes.md); EDR telemetry → [04 - Security Monitoring/EDR.md](../04%20-%20Security%20Monitoring/EDR.md); malware triage → [Malware.md](Malware.md).
 
 ---
 
@@ -427,3 +429,7 @@ cat /proc/<pid>/cmdline | tr '\0' ' '
 - [ ] Tooling: Process Explorer/Monitor, Autoruns, Sysinternals, TCPView, Sysmon, EDR, Volatility, PE tools; commands.
 - [ ] False positives: admin scripts, SCCM, backup, scanners, dev tools, installers, monitoring, legacy.
 - [ ] Labs and self-test recalled.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Phishing](Phishing.md) · [Alert Triage →](../07%20-%20Investigation/Alert-Triage.md)

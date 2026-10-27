@@ -1,7 +1,9 @@
 # IDS / IPS — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← EDR](EDR.md) · [Logs →](Logs.md)
+
 > Goal: understand how network intrusion detection/prevention works, what its alerts mean, and when to believe or dismiss them.
-> Network telemetry → `Network-Traffic.md`; alerting → `Alerting.md`; packets → `01 - Networking Fundamentals/TCP-IP.md`.
+> Network telemetry → [Network-Traffic.md](Network-Traffic.md); alerting → [Alerting.md](Alerting.md); packets → [01 - Networking Fundamentals/TCP-IP.md](../01%20-%20Networking%20Fundamentals/TCP-IP.md).
 
 ---
 
@@ -384,3 +386,7 @@ suricatasc -c ruleset-stats
 - [ ] Investigation examples: SQLi, scan, C2, exploit, policy, DNS tunnel, brute force.
 - [ ] Pitfalls list memorised.
 - [ ] Commands: suricata -T/eve.json, snort -T, tcpdump, tcpreplay, zeek/zeek-cut, rule grep/suricatasc.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← EDR](EDR.md) · [Logs →](Logs.md)

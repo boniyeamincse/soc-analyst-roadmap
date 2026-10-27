@@ -1,7 +1,9 @@
 # IOC Analysis — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Alert Triage](Alert-Triage.md) · [Log Analysis →](Log-Analysis.md)
+
 > Goal: consume indicators correctly — know what an IOC proves, how long it lives, and when matching one means nothing.
-> Threat-intel programme/actors/feeds → `Threat-Intelligence.md`; hunting method → §11 here.
+> Threat-intel programme/actors/feeds → [Threat-Intelligence.md](Threat-Intelligence.md); hunting method → §11 here.
 
 ---
 
@@ -519,3 +521,7 @@ Receive indicator
 - [ ] Tooling list.
 - [ ] Workflow 8 steps.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Alert Triage](Alert-Triage.md) · [Log Analysis →](Log-Analysis.md)

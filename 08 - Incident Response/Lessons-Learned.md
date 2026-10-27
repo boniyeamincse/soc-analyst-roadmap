@@ -1,7 +1,9 @@
 # Lessons Learned — Incident Response Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Identification](Identification.md) · [Recovery →](Recovery.md)
+
 > Goal: convert an incident into durable improvement — better detections, faster response, fewer repeats.
-> Causal analysis → `07 - Investigation/Root-Cause-Analysis.md`; the response phases → earlier files in this folder.
+> Causal analysis → [07 - Investigation/Root-Cause-Analysis.md](../07%20-%20Investigation/Root-Cause-Analysis.md); the response phases → earlier files in this folder.
 
 ---
 
@@ -378,3 +380,7 @@ What remains (1–2 bullets)
 - [ ] Maturity 1–5.
 - [ ] Programme metrics.
 - [ ] Pitfalls and anti-patterns memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Identification](Identification.md) · [Recovery →](Recovery.md)

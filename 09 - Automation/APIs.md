@@ -1,7 +1,9 @@
 # APIs — SOC Automation Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Recovery](../08%20-%20Incident%20Response/Recovery.md) · [Bash →](Bash.md)
+
 > Goal: use product APIs safely and predictably so automations are reliable, auditable, and least-privileged.
-> Orchestration platforms → `SOAR.md`; scripting → `Python.md`, `PowerShell.md`, `Bash.md`.
+> Orchestration platforms → [SOAR.md](SOAR.md); scripting → [Python.md](Python.md), [PowerShell.md](PowerShell.md), [Bash.md](Bash.md).
 
 ---
 
@@ -510,3 +512,7 @@ Protects both you and the provider.
 - [ ] Patterns incl. circuit breaker.
 - [ ] Debugging 8 steps.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Recovery](../08%20-%20Incident%20Response/Recovery.md) · [Bash →](Bash.md)

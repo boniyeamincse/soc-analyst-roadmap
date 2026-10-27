@@ -1,7 +1,9 @@
 # Processes — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Permissions](Permissions.md) · [Windows Event Logs →](Windows-Event-Logs.md)
+
 > Goal: understand how processes are created, identified, and abused on Windows, Linux, and macOS, so you can **recognise malicious execution, process injection, living-off-the-land abuse, and hidden persistence** from telemetry.
-> Windows host → `Windows.md`; Linux host → `Linux.md`; permissions → `Permissions.md`; logs → `Windows-Event-Logs.md`.
+> Windows host → [Windows.md](Windows.md); Linux host → [Linux.md](Linux.md); permissions → [Permissions.md](Permissions.md); logs → [Windows-Event-Logs.md](Windows-Event-Logs.md).
 
 ---
 
@@ -705,3 +707,7 @@ spctl -a -vv /path/app
 - [ ] Triage: Office spawn, encoded PS, web shell, bad svchost, Linux temp/deleted, injection, miner, masquerade.
 - [ ] Commands: `Get-Process/Get-CimInstance Win32_Process/wmic/tasklist/Get-AuthenticodeSignature/sigcheck/procdump/handle/tcpview`, `ps/pstree/top//proc/<pid>/*/ss/lsof/strace/ausearch`, `ps/lsof/log show/codesign/spctl`.
 - [ ] Hardening: AppLocker/WDAC, macro blocking, PowerShell logging + CLM, credential protections, service/task hygiene, LOLBin restrictions, noexec/auditd/least packages, container hardening, EDR tamper protection, egress filtering, baselines, patching.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Permissions](Permissions.md) · [Windows Event Logs →](Windows-Event-Logs.md)

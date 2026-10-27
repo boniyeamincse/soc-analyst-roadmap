@@ -1,7 +1,9 @@
 # VPNs — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← TCP/IP](TCP-IP.md) · [File Systems →](../02%20-%20Operating%20Systems/File-Systems.md)
+
 > Goal: understand how VPNs authenticate, tunnel, and log traffic, so you can **triage remote-access attacks, impossible-travel alerts, stolen sessions, split-tunnel abuse, and VPN appliance exploitation**.
-> IPsec/TLS internals overlap with `TCP-IP.md` and `HTTP-HTTPS.md`; firewall/NAT with `Firewalls.md`. This note focuses on VPN-specific behaviour and telemetry.
+> IPsec/TLS internals overlap with [TCP-IP.md](TCP-IP.md) and [HTTP-HTTPS.md](HTTP-HTTPS.md); firewall/NAT with [Firewalls.md](Firewalls.md). This note focuses on VPN-specific behaviour and telemetry.
 
 ---
 
@@ -777,3 +779,7 @@ wg show wg0 dump
 - [ ] Investigation: facts → baseline → auth sequence → session integrity → post-auth activity → enrich IP → verify user → scope → respond → document.
 - [ ] Triage: brute force, impossible travel, compromise, MFA fatigue, split-tunnel exfil, appliance exploit, rogue VPN, site-to-site anomaly.
 - [ ] Hardening: MFA/FIDO2, cert+posture, least privilege, patch appliances, retire legacy, rotate secrets, session controls, revoke tokens, full tunnel/ZTNA, leak protection, logging, integrity monitoring, awareness.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← TCP/IP](TCP-IP.md) · [File Systems →](../02%20-%20Operating%20Systems/File-Systems.md)

@@ -1,7 +1,9 @@
 # Root Cause Analysis — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Log Analysis](Log-Analysis.md) · [Threat Intelligence →](Threat-Intelligence.md)
+
 > Goal: move from *what happened* to *why it was possible* — and produce fixes that actually prevent recurrence.
-> Timeline construction → `Timeline-Analysis.md`; post-incident process → `08 - Incident Response/Lessons-Learned.md`.
+> Timeline construction → [Timeline-Analysis.md](Timeline-Analysis.md); post-incident process → [08 - Incident Response/Lessons-Learned.md](../08%20-%20Incident%20Response/Lessons-Learned.md).
 
 ---
 
@@ -295,7 +297,7 @@ At each step ask: **which control should have stopped it, and why didn't it?**
 
 | Evidence | Source |
 |---|---|
-| Timeline | `Timeline-Analysis.md` |
+| Timeline | [Timeline-Analysis.md](Timeline-Analysis.md) |
 | Logs | SIEM/EDR/cloud |
 | Config state | GPO, firewall, IAM, agent |
 | Change records | ITSM |
@@ -544,3 +546,7 @@ Always hold at least two. If you can't articulate an alternative, you haven't in
 - [ ] Report template and quality checks.
 - [ ] Worked examples: phishing, credential, missed detection.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Log Analysis](Log-Analysis.md) · [Threat Intelligence →](Threat-Intelligence.md)

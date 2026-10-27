@@ -1,7 +1,9 @@
 # Python — SOC Automation Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← PowerShell](PowerShell.md) · [SOAR →](SOAR.md)
+
 > Goal: build small, reliable tools for parsing, enriching, and automating SOC work — with code you can trust.
-> API patterns → `APIs.md`; orchestration → `SOAR.md`; shell equivalents → `Bash.md`.
+> API patterns → [APIs.md](APIs.md); orchestration → [SOAR.md](SOAR.md); shell equivalents → [Bash.md](Bash.md).
 
 ---
 
@@ -674,3 +676,7 @@ Ship with: README, `requirements.txt`/lock, env example, runbook, tests, license
 - [ ] Security: no eval/pickle/shell=True, path validation, TLS, deps.
 - [ ] Packaging with pyproject.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← PowerShell](PowerShell.md) · [SOAR →](SOAR.md)

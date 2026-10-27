@@ -1,7 +1,9 @@
 # PowerShell — SOC Automation Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Bash](Bash.md) · [Python →](Python.md)
+
 > Goal: investigate Windows at scale — event logs, endpoints, and APIs — using objects rather than text.
-> Bash equivalent → `Bash.md`; API mechanics → `APIs.md`; Windows logs → `02 - Operating Systems/Windows-Event-Logs.md`.
+> Bash equivalent → [Bash.md](Bash.md); API mechanics → [APIs.md](APIs.md); Windows logs → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md).
 
 ---
 
@@ -549,3 +551,7 @@ Invoke-ScriptAnalyzer -Path .\triage.ps1 -Severity Warning,Error
 - [ ] SOC recipes.
 - [ ] Pitfalls memorised.
 - [ ] PSScriptAnalyzer.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Bash](Bash.md) · [Python →](Python.md)

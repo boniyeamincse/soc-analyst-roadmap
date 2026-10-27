@@ -1,7 +1,9 @@
 # Lateral Movement — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Credential Attacks](Credential-Attacks.md) · [Malware →](Malware.md)
+
 > Goal: detect an attacker moving from the first compromised host to others — and stop the spread before it reaches the crown jewels.
-> Credential theft feeds this → `Credential-Attacks.md`; AD structure → `03 - Cybersecurity Fundamentals/Common-Attacks.md`; network view → `04 - Security Monitoring/Network-Traffic.md`.
+> Credential theft feeds this → [Credential-Attacks.md](Credential-Attacks.md); AD structure → [03 - Cybersecurity Fundamentals/Common-Attacks.md](../03%20-%20Cybersecurity%20Fundamentals/Common-Attacks.md); network view → [04 - Security Monitoring/Network-Traffic.md](../04%20-%20Security%20Monitoring/Network-Traffic.md).
 
 ---
 
@@ -481,3 +483,7 @@ Lateral movement = likely **High/Critical**; escalate to IR immediately if multi
 - [ ] Legit vs suspicious table.
 - [ ] Triage 8 steps; severity; response (isolate, reset, revoke, block, hunt, preserve).
 - [ ] Hardening: segmentation, host firewall, tiering, PAW, LAPS, SMBv1 off, signing, admin shares, NTLM off, Credential Guard, gMSA, EDR/Sysmon, attack-path mgmt, honeytokens.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Credential Attacks](Credential-Attacks.md) · [Malware →](Malware.md)

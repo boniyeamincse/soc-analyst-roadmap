@@ -1,7 +1,9 @@
 # Splunk — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Queries](Queries.md) · [Wazuh →](wazuh.md)
+
 > Goal: become fluent in SPL for triage and hunting, and understand Splunk's architecture well enough to know why a search is fast, slow, or wrong.
-> Aggregation basics → `Queries.md`; detection content → `Detection-Rules.md`; collection → `Log-Collection.md`.
+> Aggregation basics → [Queries.md](Queries.md); detection content → [Detection-Rules.md](Detection-Rules.md); collection → [Log-Collection.md](Log-Collection.md).
 
 ---
 
@@ -588,3 +590,7 @@ index=auth
 - [ ] Detection examples: brute force, success-after-failure, new service, encoded PS, LSASS, shadow deletion, Kerberoasting.
 - [ ] Pitfalls list memorised.
 - [ ] Cheat sheet patterns recalled: top talkers, rare destinations, first-seen, beaconing, fieldsummary, rex, metadata, tstats.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Queries](Queries.md) · [Wazuh →](wazuh.md)

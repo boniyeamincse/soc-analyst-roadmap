@@ -1,7 +1,9 @@
 # EDR — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Alerting](Alerting.md) · [IDS / IPS →](IDS-IPS.md)
+
 > Goal: understand what endpoint detection and response actually records and can do, how to hunt with it, and where its blind spots are.
-> Process behaviour → `Processes.md`; Windows telemetry → `Windows-Event-Logs.md`; alert design → `Alerting.md`.
+> Process behaviour → [Processes.md](../02%20-%20Operating%20Systems/Processes.md); Windows telemetry → [Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md); alert design → [Alerting.md](Alerting.md).
 
 ---
 
@@ -542,3 +544,7 @@ Remove persistence, reimage if needed, verify.
 - [ ] Integration: SIEM, SOAR, TI, identity, email, firewall, ticketing, vuln mgmt, NDR.
 - [ ] Vendors: CrowdStrike, MDE, SentinelOne, Cortex XDR, Trend, Sophos; Wazuh, Velociraptor, osquery, Sysmon.
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Alerting](Alerting.md) · [IDS / IPS →](IDS-IPS.md)

@@ -1,7 +1,9 @@
 # File Systems — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← VPNs](../01%20-%20Networking%20Fundamentals/VPNs.md) · [Linux →](Linux.md)
+
 > Goal: understand how files are stored, timestamped, altered, and deleted — so you can **investigate ransomware, data staging/exfil, persistence, timestomping, USB activity, and deleted-file recovery** from host and share telemetry.
-> Permissions/ACLs → `Permissions.md`; OS internals → `Linux.md` / `Windows.md`; Windows event IDs → `Windows-Event-Logs.md`.
+> Permissions/ACLs → [Permissions.md](Permissions.md); OS internals → [Linux.md](Linux.md) / [Windows.md](Windows.md); Windows event IDs → [Windows-Event-Logs.md](Windows-Event-Logs.md).
 
 ---
 
@@ -129,7 +131,7 @@ Linux surfaces `mtime`, `atime`, `ctime`, and (on some FS) `btime` via `statx`. 
 | **`$MFT`** | All file metadata | Primary timeline source. |
 | **VSS** | Point-in-time snapshots | Compare before/after; ransomware deletes them. |
 
-Parse with **Eric Zimmerman tools** (`MFTECmd`, `PECmd`, `RBCmd`, `JLECmd`, `LECmd`), **TSK** (`fls`, `icat`), **Autopsy**, **Plaso**. (Execution artifacts like Prefetch/AmCache belong to `Windows.md`.)
+Parse with **Eric Zimmerman tools** (`MFTECmd`, `PECmd`, `RBCmd`, `JLECmd`, `LECmd`), **TSK** (`fls`, `icat`), **Autopsy**, **Plaso**. (Execution artifacts like Prefetch/AmCache belong to [Windows.md](Windows.md).)
 
 ### 4.5 NTFS features with security impact
 
@@ -245,7 +247,7 @@ Parse with **Eric Zimmerman tools** (`MFTECmd`, `PECmd`, `RBCmd`, `JLECmd`, `LEC
 |---|---|
 | What files existed? | `$MFT`, directory listings, USN, `$LogFile`, ext4 journal. |
 | What was created/deleted? | USN journal, Sysmon 11/23/26, Audit 4663, `$Recycle.Bin`, extundelete. |
-| What executed? | Prefetch, AmCache, ShimCache, SRUM, EDR (see `Windows.md`). |
+| What executed? | Prefetch, AmCache, ShimCache, SRUM, EDR (see [Windows.md](Windows.md)). |
 | What was downloaded? | `Zone.Identifier` ADS, browser downloads, proxy logs. |
 | What was staged? | Temp directories, archives, `$Recycle.Bin`, cloud sync folders. |
 | What was copied to USB? | USBSTOR registry, `setupapi.dev.log`, Event 20001/20003, Sysmon device events. |
@@ -339,13 +341,13 @@ Parse with **Eric Zimmerman tools** (`MFTECmd`, `PECmd`, `RBCmd`, `JLECmd`, `LEC
 8. **Cloud sync of sensitive folders** to personal accounts.
 9. **ADS creation** — especially executable content or unusual streams.
 10. **Timestomping** — Event 2, `$SI`/`$FN` mismatch.
-11. **Files created in startup locations** (cross-ref `Windows.md`).
+11. **Files created in startup locations** (cross-ref [Windows.md](Windows.md)).
 12. **Web shell writes into webroot** (`.php`, `.jsp`, `.aspx`) by web process.
 13. **Executables in user temp/downloads** (`%TEMP%`, `%APPDATA%`, `/tmp`).
 14. **Hidden/dotfile executables** or double extensions (`invoice.pdf.exe`).
 15. **LNK/ISO/IMG/HTA** delivery files.
 16. **Mass deletion** (anti-forensics).
-17. **Permission changes** on sensitive files (cross-ref `Permissions.md`).
+17. **Permission changes** on sensitive files (cross-ref [Permissions.md](Permissions.md)).
 18. **SMB share mass writes** from one account.
 19. **Reads of sensitive files** by unusual processes (credential hunting).
 20. **Files matching threat-intel hashes** (hash reputation).
@@ -829,3 +831,7 @@ sudo mount -o ro,noatime,loop /evidence/disk.img /mnt/evidence
 - [ ] Triage: ransomware, staging/exfil, USB, timestomping, web shell, deleted files, mass share writes.
 - [ ] Commands: PowerShell/`Get-FileHash`/`dir /r`/`vssadmin`/`fsutil`, Linux `stat`/`getfattr`/`debugfs`/`extundelete`/`photorec`/`ausearch`, macOS `xattr`/`tmutil`, imaging with hashes.
 - [ ] Hardening: audit/EDR, protect backups/VSS, FIM, least privilege, WDAC, USB control, encryption, SMB security, DLP/cloud controls, monitor anti-recovery commands, canaries, restore tests.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← VPNs](../01%20-%20Networking%20Fundamentals/VPNs.md) · [Linux →](Linux.md)

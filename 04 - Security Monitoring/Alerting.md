@@ -1,7 +1,9 @@
 # Alerting — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Vulnerabilities](../03%20-%20Cybersecurity%20Fundamentals/Vulnerabilities.md) · [EDR →](EDR.md)
+
 > Goal: design, tune, and triage alerts so the SOC sees **signal, not noise**, and so every alert is actionable within minutes.
-> Detection logic → section 05 `Detection-Rules.md`; SIEM structure → `SIEM.md`; triage → `07 - Investigation/Alert-Triage.md`.
+> Detection logic → section 05 [Detection-Rules.md](../05%20-%20SIEM/Detection-Rules.md); SIEM structure → [SIEM.md](SIEM.md); triage → [07 - Investigation/Alert-Triage.md](../07%20-%20Investigation/Alert-Triage.md).
 
 ---
 
@@ -579,10 +581,10 @@ L1 → L2 → IR/threat hunting → management/legal/comms (depending on type).
 | 31 | Alert Performance Monitoring | partial | §13, expanded §36 |
 | 32 | Alert Quality Metrics | covered | §13 |
 | 33 | Alert Precision & Recall | partial | §13, expanded §37 |
-| 34 | Alert Coverage Mapping (ATT&CK) | **new here** | §38 (see also `05/Detection-Rules.md` §12) |
+| 34 | Alert Coverage Mapping (ATT&CK) | **new here** | §38 (see also [05/Detection-Rules.md](../05%20-%20SIEM/Detection-Rules.md) §12) |
 | 35 | Alert Documentation & Lifecycle Mgmt | partial | §2/§10, expanded §39 |
-| 36 | Alert Rule Versioning & Change Mgmt | **new here** | §40 (see `05/Detection-Rules.md` §10) |
-| 37 | Alert Expiration & Retirement | **new here** | §41 (see `05/Detection-Rules.md` §13) |
+| 36 | Alert Rule Versioning & Change Mgmt | **new here** | §40 (see [05/Detection-Rules.md](../05%20-%20SIEM/Detection-Rules.md) §10) |
+| 37 | Alert Expiration & Retirement | **new here** | §41 (see [05/Detection-Rules.md](../05%20-%20SIEM/Detection-Rules.md) §13) |
 | 38 | Alert Automation & Response Triggers | **new** | §42 |
 | 39 | Alert SLA Management | **new** | §43 |
 | 40 | Alert Engineering Best Practices | partial | scattered, consolidated §44 |
@@ -1594,3 +1596,7 @@ Adjust to staffing and business hours; **document the assumptions**.
 - [ ] Automation tiers 0–4, trigger design, guardrails, human-in-the-loop, metrics.
 - [ ] SLA/SLO/SLI, MTTA/MTTT/MTTC, targets, clock rules, quality guard.
 - [ ] Best-practice list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Vulnerabilities](../03%20-%20Cybersecurity%20Fundamentals/Vulnerabilities.md) · [EDR →](EDR.md)

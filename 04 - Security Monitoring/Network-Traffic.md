@@ -1,7 +1,9 @@
 # Network Traffic — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Logs](Logs.md) · [SIEM →](SIEM.md)
+
 > Goal: read network evidence — packets, flows, and protocol metadata — to answer "what talked to what, how much, and does it look normal?"
-> Protocol details → `01 - Networking Fundamentals/`; IDS rules → `IDS-IPS.md`; alerting → `Alerting.md`.
+> Protocol details → `01 - Networking Fundamentals/`; IDS rules → [IDS-IPS.md](IDS-IPS.md); alerting → [Alerting.md](Alerting.md).
 
 ---
 
@@ -261,7 +263,7 @@ Often the **best** HTTP source: URL, category, user, bytes, action, user-agent. 
 - Kerberos RC4 (`etype 23`) requests for many SPNs.
 - NTLM auth to many hosts.
 
-> AD attack detail → `03 - Cybersecurity Fundamentals/Common-Attacks.md`; Windows events → `02 - Operating Systems/Windows-Event-Logs.md`.
+> AD attack detail → [03 - Cybersecurity Fundamentals/Common-Attacks.md](../03%20-%20Cybersecurity%20Fundamentals/Common-Attacks.md); Windows events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md).
 
 ---
 
@@ -506,3 +508,7 @@ nfdump -r nfcapd.current -c 20
 - [ ] Performance: tiering, retention, drops, indexing, privacy, encryption.
 - [ ] Pitfalls list memorised.
 - [ ] Commands: tcpdump capture/filter, tshark fields/export, zeek-cut conn/ssl/files, nfdump top talkers.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Logs](Logs.md) · [SIEM →](SIEM.md)

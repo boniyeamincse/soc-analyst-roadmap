@@ -1,7 +1,9 @@
 # Blue Team Labs Online — Practice Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← SOAR](../09%20-%20Automation/SOAR.md) · [CyberDefenders →](CyberDefenders.md)
+
 > Goal: use BTLO to turn theory into repeatable investigation skill — and produce artefacts you can show.
-> Other platforms → `CyberDefenders.md`, `LetsDefend.md`, `Splunk-Labs.md`, `TryHackMe.md`.
+> Other platforms → [CyberDefenders.md](CyberDefenders.md), [LetsDefend.md](LetsDefend.md), [Splunk-Labs.md](Splunk-Labs.md), [TryHackMe.md](TryHackMe.md).
 
 ---
 
@@ -267,3 +269,7 @@ If stuck > 20 min on one question: write what you know, move on, return later. *
 - [ ] Traps memorised.
 - [ ] Time-boxing rule.
 - [ ] 8-week plan printed.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← SOAR](../09%20-%20Automation/SOAR.md) · [CyberDefenders →](CyberDefenders.md)

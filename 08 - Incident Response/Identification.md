@@ -1,7 +1,9 @@
 # Identification — Incident Response Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Eradication](Eradication.md) · [Lessons Learned →](Lessons-Learned.md)
+
 > Goal: decide *fast and correctly* whether this is an incident, how severe, who owns it, and what must happen in the first hour.
-> Triage mechanics → `07 - Investigation/Alert-Triage.md`; lifecycle → this and following files.
+> Triage mechanics → [07 - Investigation/Alert-Triage.md](../07%20-%20Investigation/Alert-Triage.md); lifecycle → this and following files.
 
 ---
 
@@ -503,3 +505,7 @@ Last updated:
 - [ ] Escalation triggers and external support.
 - [ ] Metrics: detect/declare/contain, dwell, scope accuracy.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Eradication](Eradication.md) · [Lessons Learned →](Lessons-Learned.md)

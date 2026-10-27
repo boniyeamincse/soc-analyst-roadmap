@@ -1,7 +1,9 @@
 # CIA Triad — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Authentication](Authentication.md) · [Common Attacks →](Common-Attacks.md)
+
 > Goal: use Confidentiality, Integrity, and Availability as the **decision lens** for classifying incidents, judging impact, and choosing a response — not as a memorised definition.
-> Risk framing builds on this; see `Vulnerabilities.md`, `Common-Attacks.md`, `Malware.md`.
+> Risk framing builds on this; see [Vulnerabilities.md](Vulnerabilities.md), [Common-Attacks.md](Common-Attacks.md), [Malware.md](Malware.md).
 
 ---
 
@@ -521,3 +523,7 @@ Log/artifact sources: access logs, DLP, proxy, cloud audit, FIM, backup logs, up
 - [ ] Investigation: pillar → asset/classification → realised? → quantify → root cause → scope → respond → document.
 - [ ] Triage: exfiltration, FIM, outage/DDoS, ransomware, log clear, public bucket; severity by pillar.
 - [ ] Reporting: explicit C/I/A impact statement, not "was hacked".
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Authentication](Authentication.md) · [Common Attacks →](Common-Attacks.md)

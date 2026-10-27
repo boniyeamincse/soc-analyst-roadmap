@@ -1,7 +1,9 @@
 # Eradication — Incident Response Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Containment](Containment.md) · [Identification →](Identification.md)
+
 > Goal: remove the attacker's presence *and* the vulnerability that let them in — then prove it.
-> Containment → `Containment.md`; restore → `Recovery.md`; cause analysis → `07 - Investigation/Root-Cause-Analysis.md`.
+> Containment → [Containment.md](Containment.md); restore → [Recovery.md](Recovery.md); cause analysis → [07 - Investigation/Root-Cause-Analysis.md](../07%20-%20Investigation/Root-Cause-Analysis.md).
 
 ---
 
@@ -491,3 +493,7 @@ Owner sign-off
 - [ ] Re-infection controls.
 - [ ] Documentation fields.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Containment](Containment.md) · [Identification →](Identification.md)

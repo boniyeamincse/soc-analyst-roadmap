@@ -1,7 +1,9 @@
 # Wazuh — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Splunk](Splunk.md) · [Brute Force →](../06%20-%20Threat%20Detection/Brute-Force.md)
+
 > Goal: operate Wazuh as an open-source SIEM/XDR — deploy agents, read alerts, tune rules, and use FIM/SCA/vulnerability/active-response.
-> Concepts shared with other SIEMs → `Log-Collection.md`, `Detection-Rules.md`; query craft → `Queries.md`.
+> Concepts shared with other SIEMs → [Log-Collection.md](Log-Collection.md), [Detection-Rules.md](Detection-Rules.md); query craft → [Queries.md](Queries.md).
 
 ---
 
@@ -569,3 +571,7 @@ jq 'select(.rule.level >= 10) | {agent:.agent.name, rule:.rule.description}' ale
 - [ ] Tuning: level, frequency, suppression, FIM ignore, agent groups, decoder fixes; document and review.
 - [ ] Pitfalls list memorised.
 - [ ] Commands: service status, analysisd -t, logtest, agent_control, cluster_control, API curl, alerts.json jq.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Splunk](Splunk.md) · [Brute Force →](../06%20-%20Threat%20Detection/Brute-Force.md)

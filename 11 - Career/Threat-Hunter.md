@@ -1,7 +1,9 @@
 # Threat Hunter — Career Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← SOC Analyst L2](SOC-Analyst-L2.md)
+
 > Goal: find what detection never alerted on — deliberately, with hypotheses, not luck.
-> TTP knowledge → `03 - Cybersecurity Fundamentals/MITRE-ATTACK.md`; triage → `07 - Investigation/Alert-Triage.md`.
+> TTP knowledge → [03 - Cybersecurity Fundamentals/MITRE-ATTACK.md](../03%20-%20Cybersecurity%20Fundamentals/MITRE-ATTACK.md); triage → [07 - Investigation/Alert-Triage.md](../07%20-%20Investigation/Alert-Triage.md).
 
 ---
 
@@ -374,3 +376,7 @@ Give detection engineering:
 - [ ] Interview Qs + portfolio.
 - [ ] 90-day plan.
 - [ ] Mistakes memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← SOC Analyst L2](SOC-Analyst-L2.md)

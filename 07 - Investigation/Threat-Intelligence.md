@@ -1,7 +1,9 @@
 # Threat Intelligence — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Root Cause Analysis](Root-Cause-Analysis.md) · [Timeline Analysis →](Timeline-Analysis.md)
+
 > Goal: turn threat intelligence from a feed subscription into decisions — what to detect, what to block, what to ignore.
-> Indicators themselves → `IOC-Analysis.md`; ATT&CK mechanics → `03 - Cybersecurity Fundamentals/MITRE-ATTACK.md`.
+> Indicators themselves → [IOC-Analysis.md](IOC-Analysis.md); ATT&CK mechanics → [03 - Cybersecurity Fundamentals/MITRE-ATTACK.md](../03%20-%20Cybersecurity%20Fundamentals/MITRE-ATTACK.md).
 
 ---
 
@@ -516,3 +518,7 @@ Intel report → hypothesis → ATT&CK technique
 - [ ] Biases and counters.
 - [ ] Legal/ethical limits.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Root Cause Analysis](Root-Cause-Analysis.md) · [Timeline Analysis →](Timeline-Analysis.md)

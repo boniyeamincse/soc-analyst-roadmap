@@ -1,7 +1,9 @@
 # Containment — Incident Response Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Timeline Analysis](../07%20-%20Investigation/Timeline-Analysis.md) · [Eradication →](Eradication.md)
+
 > Goal: stop the spread and the bleeding without destroying evidence or the business.
-> Declaration/severity → `Identification.md`; removal of the cause → `Eradication.md`.
+> Declaration/severity → [Identification.md](Identification.md); removal of the cause → [Eradication.md](Eradication.md).
 
 ---
 
@@ -462,3 +464,7 @@ time_utc | action | target | performed_by | authorisation
 - [ ] Comms wording; legal hold.
 - [ ] Pitfalls memorised.
 - [ ] Containment log fields.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Timeline Analysis](../07%20-%20Investigation/Timeline-Analysis.md) · [Eradication →](Eradication.md)

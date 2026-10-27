@@ -1,7 +1,9 @@
 # Credential Attacks — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Brute Force](Brute-Force.md) · [Lateral Movement →](Lateral-Movement.md)
+
 > Goal: detect the theft, extraction, and abuse of credentials and tickets — the step that turns "a foothold" into "domain admin".
-> Password guessing → `Brute-Force.md`; AD mechanics → `03 - Cybersecurity Fundamentals/Authentication.md`; events → `02 - Operating Systems/Windows-Event-Logs.md`.
+> Password guessing → [Brute-Force.md](Brute-Force.md); AD mechanics → [03 - Cybersecurity Fundamentals/Authentication.md](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md); events → [02 - Operating Systems/Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md).
 
 ---
 
@@ -446,3 +448,7 @@ Remove tooling/persistence; hunt for the initial access; reimage if uncertain.
 - [ ] Triage 8 steps; escalation rules; response per attack (krbtgt twice for golden).
 - [ ] Hardening: Credential Guard, RunAsPPL, WDigest off, Protected Users, tiering/PAW, NTLM off, signing, LLMNR off, gMSA, long SPN passwords, pre-auth on, krbtgt rotation, EDR/Sysmon, MFA/CA, consent restrictions.
 - [ ] Queries recalled: LSASS access, Kerberoast, AS-REP, DCSync, PtH.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Brute Force](Brute-Force.md) · [Lateral Movement →](Lateral-Movement.md)

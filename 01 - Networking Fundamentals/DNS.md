@@ -1,5 +1,7 @@
 # DNS — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [Firewalls →](Firewalls.md)
+
 > Goal: understand DNS deeply enough to **read DNS logs, spot malicious patterns, triage alerts, and explain findings** in an incident report.
 > Work top-to-bottom once, then use the checklists in §18–§20 for revision.
 
@@ -752,3 +754,7 @@ dnsx -d example.com -a -resp
 - [ ] False positives: prefetch, telemetry, CDNs, SPF/DKIM, browser DoH, sinkhole clicks.
 - [ ] Hardening: controlled resolvers, logging, DNSSEC, RPZ, AXFR restriction, DHCP snooping, NRD/tunneling monitoring.
 - [ ] Commands: `dig`, `Resolve-DnsName`, `nslookup`, `host`, `ipconfig`, `resolvectl`, `dig +trace`, `dig -x`.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [Firewalls →](Firewalls.md)

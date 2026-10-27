@@ -1,7 +1,9 @@
 # Logs — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← IDS / IPS](IDS-IPS.md) · [Network Traffic →](Network-Traffic.md)
+
 > Goal: know which logs exist, what they answer, how they get to the SIEM, and why most detection failures are actually **logging failures**.
-> SIEM platform → `SIEM.md`; alert design → `Alerting.md`; Windows specifics → `Windows-Event-Logs.md`.
+> SIEM platform → [SIEM.md](SIEM.md); alert design → [Alerting.md](Alerting.md); Windows specifics → [Windows-Event-Logs.md](../02%20-%20Operating%20Systems/Windows-Event-Logs.md).
 
 ---
 
@@ -501,3 +503,7 @@ openssl s_client -connect syslog.server:6514
 - [ ] Log-health triage: missing logs, spikes, drops, parse failures, skew, tampering.
 - [ ] Pitfalls list memorised.
 - [ ] Commands: journalctl, auth.log, ausearch, tcpdump, tshark, zeek-cut, Get-WinEvent, wevtutil, syslog test.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← IDS / IPS](IDS-IPS.md) · [Network Traffic →](Network-Traffic.md)

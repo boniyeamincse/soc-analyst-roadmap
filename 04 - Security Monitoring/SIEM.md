@@ -1,7 +1,9 @@
 # SIEM — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Network Traffic](Network-Traffic.md) · [Detection Rules →](../05%20-%20SIEM/Detection-Rules.md)
+
 > Goal: understand what a SIEM actually does, how data flows through it, and how to use it for detection, triage, and investigation — independent of vendor.
-> Log sources → `Logs.md`; alert design → `Alerting.md`; query languages → section 05.
+> Log sources → [Logs.md](Logs.md); alert design → [Alerting.md](Alerting.md); query languages → section 05.
 
 ---
 
@@ -553,3 +555,7 @@ union withsource=Table *
 - [ ] SIEM triage: storms, no-data rules, gaps, high volume, slow search.
 - [ ] Operations: ingest, parsing, search, storage, alerting, agents, access, backup; runbooks.
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Network Traffic](Network-Traffic.md) · [Detection Rules →](../05%20-%20SIEM/Detection-Rules.md)

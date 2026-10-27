@@ -1,7 +1,9 @@
 # LetsDefend — Practice Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← CyberDefenders](CyberDefenders.md) · [Splunk Labs →](Splunk-Labs.md)
+
 > Goal: practise the *daily SOC loop* — queue, triage, escalate, write the case — in a simulated SOC.
-> Realistic artefacts → `CyberDefenders.md`; SIEM querying → `Splunk-Labs.md`.
+> Realistic artefacts → [CyberDefenders.md](CyberDefenders.md); SIEM querying → [Splunk-Labs.md](Splunk-Labs.md).
 
 ---
 
@@ -94,7 +96,7 @@ Queue → Open alert → Investigate → Decide → Take action → Close with r
 | **Insider** | Access pattern, timing, volume |
 | **Cloud/IAM** | Principal, action, source |
 
-**Every type maps to a checklist in `07 - Investigation/Alert-Triage.md`.**
+**Every type maps to a checklist in [07 - Investigation/Alert-Triage.md](../07%20-%20Investigation/Alert-Triage.md).**
 
 ---
 
@@ -273,3 +275,7 @@ Most platforms score on:
 - [ ] Portfolio rules.
 - [ ] Real-world transfer and gaps.
 - [ ] 6-week plan.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← CyberDefenders](CyberDefenders.md) · [Splunk Labs →](Splunk-Labs.md)

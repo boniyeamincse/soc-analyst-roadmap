@@ -1,7 +1,9 @@
 # SOC Analyst L2 — Career Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← SOC Analyst L1](SOC-Analyst-L1.md) · [Threat Hunter →](Threat-Hunter.md)
+
 > Goal: move from *verdicts* to *scope and stories* — and from individual contributor to force multiplier.
-> Entry role → `SOC-Analyst-L1.md`; specialisation → `Incident-Responder.md`, `Threat-Hunter.md`, `Detection-Engineer.md`.
+> Entry role → [SOC-Analyst-L1.md](SOC-Analyst-L1.md); specialisation → [Incident-Responder.md](Incident-Responder.md), [Threat-Hunter.md](Threat-Hunter.md), [Detection-Engineer.md](Detection-Engineer.md).
 
 ---
 
@@ -259,3 +261,7 @@ Entity → related entities → time window → corroborating sources
 - [ ] 90-day plan.
 - [ ] Growth directions.
 - [ ] Mistakes memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← SOC Analyst L1](SOC-Analyst-L1.md) · [Threat Hunter →](Threat-Hunter.md)

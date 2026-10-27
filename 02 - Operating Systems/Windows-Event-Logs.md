@@ -1,7 +1,9 @@
 # Windows Event Logs — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Processes](Processes.md) · [Windows →](Windows.md)
+
 > Goal: read, query, and reason about Windows event logs well enough to **detect and reconstruct attacks**, and to know which audit settings must be enabled for that to be possible.
-> Host internals → `Windows.md`; process behaviour → `Processes.md`; permissions/object auditing → `Permissions.md`.
+> Host internals → [Windows.md](Windows.md); process behaviour → [Processes.md](Processes.md); permissions/object auditing → [Permissions.md](Permissions.md).
 
 ---
 
@@ -815,3 +817,7 @@ SecurityEvent
 - [ ] Triage: 4625 burst, 4672 anomaly, 7045, 4698, 1102, 4769 RC4, RDP anomaly, 4663 sensitive.
 - [ ] Queries: `Get-WinEvent -FilterHashtable/-FilterXml`, `wevtutil qe`, Splunk `EventCode`, KQL `SecurityEvent`, EvtxECmd/Chainsaw/Hayabusa.
 - [ ] Gotchas: service 4625 noise, SYSTEM 4672, missing cmdline/SACL, 127.0.0.1 type 3, machine accounts, 4769/5145 volume, patching 7045, duplicates, timezone, truncation, rollover.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Processes](Processes.md) · [Windows →](Windows.md)

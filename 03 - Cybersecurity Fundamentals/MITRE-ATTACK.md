@@ -1,7 +1,9 @@
 # MITRE ATT&CK — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Common Attacks](Common-Attacks.md) · [Malware →](Malware.md)
+
 > Goal: use ATT&CK as a **shared vocabulary for behaviour**, to map detections, measure coverage, and communicate about intrusions — not to memorise 200 technique IDs.
-> Attack patterns → `Common-Attacks.md`; detection engineering → section 05/06; threat intel → section 07.
+> Attack patterns → [Common-Attacks.md](Common-Attacks.md); detection engineering → section 05/06; threat intel → section 07.
 
 ---
 
@@ -569,3 +571,7 @@ level: high
 - [ ] Limitations: not checklist/vuln DB, map to sub-techniques, platform differences, non-linear, procedures matter, no 100%, test evidence.
 - [ ] Purple team: select → emulate (Atomic/CALDERA) → record → score → fix → retest → layer.
 - [ ] Workflow: intel/incident → technique → data source → telemetry → hunt → rule → test → catalogue → alert → triage.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Common Attacks](Common-Attacks.md) · [Malware →](Malware.md)

@@ -1,7 +1,9 @@
 # Windows — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Windows Event Logs](Windows-Event-Logs.md) · [Linux Logging →](linuxlog.md)
+
 > Goal: understand Windows internals, identity, persistence surfaces, and forensic artifacts well enough to **detect, investigate, and scope intrusions on Windows endpoints and servers**.
-> Event IDs in depth → `Windows-Event-Logs.md`; process behaviour → `Processes.md`; ACLs → `Permissions.md`; AD/domain attacks → the AD skill.
+> Event IDs in depth → [Windows-Event-Logs.md](Windows-Event-Logs.md); process behaviour → [Processes.md](Processes.md); ACLs → [Permissions.md](Permissions.md); AD/domain attacks → the AD skill.
 
 ---
 
@@ -336,7 +338,7 @@ See §5. Plus: registry Run keys, startup folder, services, tasks, WMI, COM, IFE
 
 ### 10.1 High-signal ideas
 
-1. Office/browser → shell (see `Processes.md`).
+1. Office/browser → shell (see [Processes.md](Processes.md)).
 2. LSASS access/dump.
 3. New service with suspicious binary path.
 4. Scheduled task created by unusual user/process.
@@ -687,7 +689,7 @@ reg save HKLM\SAM sam.hiv
 - **EDR** with tamper protection and LSASS protection.
 - **Backups:** offline/immutable, tested restores, protect backup infrastructure.
 - **Email:** attachment filtering, link detonation, DMARC.
-- **Least privilege** for services/tasks/shares (see `Permissions.md`).
+- **Least privilege** for services/tasks/shares (see [Permissions.md](Permissions.md)).
 - **Baselines** per host role; alert on drift.
 - **Incident readiness:** isolation tooling, evidence kits, runbooks.
 
@@ -747,3 +749,7 @@ reg save HKLM\SAM sam.hiv
 - [ ] Triage: malware, LSASS, service/task, encoded PS, RDP anomaly, log clear, Defender tamper, ransomware.
 - [ ] Commands: `whoami /all`, `Get-CimInstance Win32_Process`, `sc`, `schtasks`, `reg`, `Get-WinEvent`, `wevtutil`, `Get-MpComputerStatus`, `vssadmin`, `reg save`, Sysinternals.
 - [ ] Hardening: patching, tiering/LAPS/JIT, Credential Guard/LSA/Protected Users, WDAC/AppLocker/ASR, PowerShell logging, SMB/LLMNR/RDP restrictions, audit + WEF + Sysmon + EDR, immutable backups, email security, least privilege, baselines.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Windows Event Logs](Windows-Event-Logs.md) · [Linux Logging →](linuxlog.md)

@@ -1,7 +1,9 @@
 # Detection Engineer — Career Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← TryHackMe](../10%20-%20Practice/TryHackMe.md) · [Incident Responder →](Incident-Responder.md)
+
 > Goal: design detections as products — with requirements, tests, versioning, and measured coverage.
-> Rule mechanics → `04 - Security Monitoring/Alerting.md` §21–§45; SIEM → `05 - SIEM/`.
+> Rule mechanics → [04 - Security Monitoring/Alerting.md](../04%20-%20Security%20Monitoring/Alerting.md) §21–§45; SIEM → `05 - SIEM/`.
 
 ---
 
@@ -368,3 +370,7 @@ Detection engineers often fix parsing before writing rules. **A broken parser pr
 - [ ] Interview Qs + portfolio.
 - [ ] 90-day plan.
 - [ ] Mistakes memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← TryHackMe](../10%20-%20Practice/TryHackMe.md) · [Incident Responder →](Incident-Responder.md)

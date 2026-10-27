@@ -1,7 +1,9 @@
 # Brute Force — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Wazuh](../05%20-%20SIEM/wazuh.md) · [Credential Attacks →](Credential-Attacks.md)
+
 > Goal: detect and triage password-guessing at scale — brute force, password spray, credential stuffing — across on-prem, remote access, and cloud identity.
-> Stealing/replaying credentials → `Credential-Attacks.md`; identity fundamentals → `03 - Cybersecurity Fundamentals/Authentication.md`.
+> Stealing/replaying credentials → [Credential-Attacks.md](Credential-Attacks.md); identity fundamentals → [03 - Cybersecurity Fundamentals/Authentication.md](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md).
 
 ---
 
@@ -431,3 +433,7 @@ Queries, counts, timeline, accounts, source IPs, verdict, actions.
 - [ ] Response: block, reset, revoke, MFA, disable, revert changes; strategic controls (MFA, CA, lockout, passwordless, rate limit, legacy auth off, honeytokens).
 - [ ] Detection hardening: baseline, entity thresholds, distributed logic, success-after-failure, MFA registration, legacy auth.
 - [ ] Pitfalls/FP list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Wazuh](../05%20-%20SIEM/wazuh.md) · [Credential Attacks →](Credential-Attacks.md)

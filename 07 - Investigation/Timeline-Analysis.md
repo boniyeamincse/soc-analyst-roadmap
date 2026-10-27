@@ -1,7 +1,9 @@
 # Timeline Analysis — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Threat Intelligence](Threat-Intelligence.md) · [Containment →](../08%20-%20Incident%20Response/Containment.md)
+
 > Goal: reconstruct *what happened, in order* — with enough precision that the sequence itself becomes evidence.
-> Causal reasoning → `Root-Cause-Analysis.md`; log reading → `Log-Analysis.md`; forensics in `08`.
+> Causal reasoning → [Root-Cause-Analysis.md](Root-Cause-Analysis.md); log reading → [Log-Analysis.md](Log-Analysis.md); forensics in `08`.
 
 ---
 
@@ -478,3 +480,7 @@ Question → window → sources → extract → normalise
 - [ ] Attack-phase mapping.
 - [ ] Narrative rules + review checklist.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Threat Intelligence](Threat-Intelligence.md) · [Containment →](../08%20-%20Incident%20Response/Containment.md)

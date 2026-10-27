@@ -1,7 +1,9 @@
 # Recovery — Incident Response Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Lessons Learned](Lessons-Learned.md) · [APIs →](../09%20-%20Automation/APIs.md)
+
 > Goal: bring services back to a **known-good, monitored** state — without re-importing the compromise.
-> Removal → `Eradication.md`; post-incident learning → `Lessons-Learned.md`.
+> Removal → [Eradication.md](Eradication.md); post-incident learning → [Lessons-Learned.md](Lessons-Learned.md).
 
 ---
 
@@ -390,3 +392,7 @@ time_utc | system | action | owner | validation
 - [ ] Closure criteria.
 - [ ] Hypercare and exit.
 - [ ] Pitfalls memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Lessons Learned](Lessons-Learned.md) · [APIs →](../09%20-%20Automation/APIs.md)

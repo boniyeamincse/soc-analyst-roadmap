@@ -1,7 +1,9 @@
 # Common Attacks — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← CIA Triad](CIA-Triad.md) · [MITRE ATT&CK →](MITRE-ATTACK.md)
+
 > Goal: recognise the **attack patterns you will actually see in alerts**, know what telemetry each produces, and triage them in order of consequence.
-> Technique IDs → `MITRE-ATTACK.md`; payloads → `Malware.md`; auth-focused attacks → `Authentication.md`; web vuln mechanics → `Vulnerabilities.md`.
+> Technique IDs → [MITRE-ATTACK.md](MITRE-ATTACK.md); payloads → [Malware.md](Malware.md); auth-focused attacks → [Authentication.md](Authentication.md); web vuln mechanics → [Vulnerabilities.md](Vulnerabilities.md).
 
 ---
 
@@ -48,7 +50,7 @@
 
 ### 2.2 MITRE ATT&CK
 
-Tactics → techniques → sub-techniques, with real-world procedure examples. **Use:** detection mapping and coverage analysis. See `MITRE-ATTACK.md`.
+Tactics → techniques → sub-techniques, with real-world procedure examples. **Use:** detection mapping and coverage analysis. See [MITRE-ATTACK.md](MITRE-ATTACK.md).
 
 ### 2.3 Unified Kill Chain
 
@@ -390,7 +392,7 @@ Remove persistence, reset creds, patch, restore, verify.
 3. Remove, patch, review logs.
 
 ### E. Credential attack
-See `Authentication.md` playbooks.
+See [Authentication.md](Authentication.md) playbooks.
 
 ### F. Lateral movement
 1. Source host, account, technique.
@@ -558,3 +560,7 @@ Get-DnsClientCache | Where-Object Entry -like "*suspicious*"
 - [ ] Investigation: name → success? → earliest evidence → chain → scope → contain → eradicate → document.
 - [ ] Triage: phishing, malware, ransomware, web shell, credential, lateral, C2, exfil, cloud; severity table.
 - [ ] ATT&CK mapping table memorised for top 20 patterns.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← CIA Triad](CIA-Triad.md) · [MITRE ATT&CK →](MITRE-ATTACK.md)

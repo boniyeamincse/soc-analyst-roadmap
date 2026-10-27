@@ -1,7 +1,9 @@
 # SOAR — SOC Automation Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Python](Python.md) · [Blue Team Labs Online →](../10%20-%20Practice/Blue-Team-Labs-Online.md)
+
 > Goal: turn repeated analyst work into reliable, auditable playbooks — without automating your way into an outage.
-> API mechanics → `APIs.md`; scripting → `Python.md` / `PowerShell.md` / `Bash.md`.
+> API mechanics → [APIs.md](APIs.md); scripting → [Python.md](Python.md) / [PowerShell.md](PowerShell.md) / [Bash.md](Bash.md).
 
 ---
 
@@ -467,3 +469,7 @@ Run the playbook and log what it *would* have done. Compare to analyst decisions
 - [ ] Maturity 1–5.
 - [ ] Pitfalls memorised.
 - [ ] Design review checklist.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Python](Python.md) · [Blue Team Labs Online →](../10%20-%20Practice/Blue-Team-Labs-Online.md)

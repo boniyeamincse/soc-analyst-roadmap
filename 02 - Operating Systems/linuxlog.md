@@ -1,7 +1,9 @@
 # Linux Logging — Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Windows](Windows.md) · [Authentication →](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md)
+
 > Goal: know where Linux records what happened, how to query it fast, and how an attacker tries to erase it.
-> Host internals → `Linux.md`; analysis method → `07 - Investigation/Log-Analysis.md`; shipping logs → `05 - SIEM/Log-Collection.md`.
+> Host internals → [Linux.md](Linux.md); analysis method → [07 - Investigation/Log-Analysis.md](../07%20-%20Investigation/Log-Analysis.md); shipping logs → [05 - SIEM/Log-Collection.md](../05%20-%20SIEM/Log-Collection.md).
 
 ---
 
@@ -747,7 +749,7 @@ transport = TCP
 | Fluent Bit/Fluentd | files, journald, container stdout |
 | osquery | System state + some logs |
 
-Details → `05 - SIEM/Log-Collection.md`.
+Details → [05 - SIEM/Log-Collection.md](../05%20-%20SIEM/Log-Collection.md).
 
 ### 12.6 Forwarding checklist
 
@@ -1149,3 +1151,7 @@ Document expected false positives for each.
 - [ ] Cheat sheet commands.
 - [ ] Hardening baseline.
 - [ ] Lab done at least once end to end.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Windows](Windows.md) · [Authentication →](../03%20-%20Cybersecurity%20Fundamentals/Authentication.md)

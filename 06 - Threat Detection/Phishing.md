@@ -1,7 +1,9 @@
 # Phishing — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Malware](Malware.md) · [Suspicious Processes →](Suspicious-Processes.md)
+
 > Goal: triage a reported or detected phish quickly — verdict, blast radius, purge, and prevent the next click from becoming a breach.
-> BEC/ATO response → `Credential-Attacks.md`; email telemetry → `04 - Security Monitoring/Logs.md`; ATT&CK → T1566.
+> BEC/ATO response → [Credential-Attacks.md](Credential-Attacks.md); email telemetry → [04 - Security Monitoring/Logs.md](../04%20-%20Security%20Monitoring/Logs.md); ATT&CK → T1566.
 
 ---
 
@@ -301,7 +303,7 @@ IOCs, verdict, actions, rule/gateway tuning.
 
 ### 11.3 If attachment executed
 
-- Follow the malware playbook (`Malware.md`).
+- Follow the malware playbook ([Malware.md](Malware.md)).
 - Isolate, scope by hash, hunt.
 
 ### 11.4 If internal account compromised
@@ -426,3 +428,7 @@ IOCs, verdict, actions, rule/gateway tuning.
 - [ ] Workflow 8 steps; response (purge/block/reset/revoke/MFA/isolation/warn).
 - [ ] Severity table; metrics; controls (DMARC reject, gateway, safe links, phishing-resistant MFA, ASR, training, playbooks).
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Malware](Malware.md) · [Suspicious Processes →](Suspicious-Processes.md)

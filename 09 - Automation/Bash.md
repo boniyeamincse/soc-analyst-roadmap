@@ -1,7 +1,9 @@
 # Bash — SOC Automation Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← APIs](APIs.md) · [PowerShell →](PowerShell.md)
+
 > Goal: parse, filter, and act on logs and API output from the command line — reliably and safely.
-> API mechanics → `APIs.md`; Windows equivalent → `PowerShell.md`; orchestration → `SOAR.md`.
+> API mechanics → [APIs.md](APIs.md); Windows equivalent → [PowerShell.md](PowerShell.md); orchestration → [SOAR.md](SOAR.md).
 
 ---
 
@@ -517,3 +519,7 @@ Fix all warnings before production. Common finds: unquoted vars, useless `cat`, 
 - [ ] Cron with absolute paths, redirect, flock.
 - [ ] Logging fields; never secrets.
 - [ ] Pitfalls memorised; ShellCheck.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← APIs](APIs.md) · [PowerShell →](PowerShell.md)

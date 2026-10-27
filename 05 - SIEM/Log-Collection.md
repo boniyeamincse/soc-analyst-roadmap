@@ -1,7 +1,9 @@
 # Log Collection — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Elastic Security](Elastic-Security.md) · [Microsoft Sentinel →](Microsoft-Sentinel.md)
+
 > Goal: get the **right logs, complete, on time, parsed correctly**, into the SIEM — and know when that silently stops happening.
-> Log concepts → `04 - Security Monitoring/Logs.md`; SIEM architecture → `SIEM.md`; detection → `Detection-Rules.md`.
+> Log concepts → [04 - Security Monitoring/Logs.md](../04%20-%20Security%20Monitoring/Logs.md); SIEM architecture → [SIEM.md](../04%20-%20Security%20Monitoring/SIEM.md); detection → [Detection-Rules.md](Detection-Rules.md).
 
 ---
 
@@ -528,3 +530,7 @@ Usage
 - [ ] Onboarding 10 steps; governance controls (ownership, change control, access, classification, audit, cost, coverage, retention, decommission).
 - [ ] Pitfalls list memorised.
 - [ ] Commands: logger/eventcreate test, port checks, UF/Elastic/Wazuh status, sourcetype metadata, Usage query.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Elastic Security](Elastic-Security.md) · [Microsoft Sentinel →](Microsoft-Sentinel.md)

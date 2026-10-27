@@ -1,7 +1,9 @@
 # Splunk Labs — Practice Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← LetsDefend](LetsDefend.md) · [TryHackMe →](TryHackMe.md)
+
 > Goal: build real SPL fluency on real data, then prove it with detections and dashboards.
-> Splunk concepts → `05 - SIEM/Splunk.md`; generic query practice → `05 - SIEM/Queries.md`.
+> Splunk concepts → [05 - SIEM/Splunk.md](../05%20-%20SIEM/Splunk.md); generic query practice → [05 - SIEM/Queries.md](../05%20-%20SIEM/Queries.md).
 
 ---
 
@@ -326,3 +328,7 @@ index=wineventlog EventCode=4104 OR EventCode=4688
 - [ ] Cert ladder.
 - [ ] Pitfalls memorised.
 - [ ] 8-week plan.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← LetsDefend](LetsDefend.md) · [TryHackMe →](TryHackMe.md)

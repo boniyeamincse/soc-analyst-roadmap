@@ -1,7 +1,9 @@
 # Microsoft Sentinel — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Log Collection](Log-Collection.md) · [Queries →](Queries.md)
+
 > Goal: operate Sentinel day-to-day — connect data, write analytics rules, triage incidents, and automate response.
-> KQL patterns → `Queries.md`; rule engineering → `Detection-Rules.md`; collection concepts → `Log-Collection.md`.
+> KQL patterns → [Queries.md](Queries.md); rule engineering → [Detection-Rules.md](Detection-Rules.md); collection concepts → [Log-Collection.md](Log-Collection.md).
 
 ---
 
@@ -595,3 +597,7 @@ _Im_Authentication
 - [ ] UEBA as context; content hub defaults need tuning.
 - [ ] Operations: health checks, RBAC, retention.
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Log Collection](Log-Collection.md) · [Queries →](Queries.md)

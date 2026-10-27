@@ -1,7 +1,9 @@
 # Detection Rules — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← SIEM](../04%20-%20Security%20Monitoring/SIEM.md) · [Elastic Security →](Elastic-Security.md)
+
 > Goal: write, test, deploy, and maintain detection rules that find real attacks without drowning the SOC.
-> Alert design/UX → `04 - Security Monitoring/Alerting.md`; query syntax → `Queries.md`; ATT&CK → `03 - Cybersecurity Fundamentals/MITRE-ATTACK.md`.
+> Alert design/UX → [04 - Security Monitoring/Alerting.md](../04%20-%20Security%20Monitoring/Alerting.md); query syntax → [Queries.md](Queries.md); ATT&CK → [03 - Cybersecurity Fundamentals/MITRE-ATTACK.md](../03%20-%20Cybersecurity%20Fundamentals/MITRE-ATTACK.md).
 
 ---
 
@@ -566,3 +568,7 @@ Real coverage = **data source exists + telemetry reaches SIEM + rule is tested +
 - [ ] Maintenance cadence; rule rot causes.
 - [ ] Example detection set (Windows) recalled.
 - [ ] Pitfalls list memorised.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← SIEM](../04%20-%20Security%20Monitoring/SIEM.md) · [Elastic Security →](Elastic-Security.md)

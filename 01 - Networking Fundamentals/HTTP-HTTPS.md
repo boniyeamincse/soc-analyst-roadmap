@@ -1,7 +1,9 @@
 # HTTP / HTTPS — SOC Analyst Study Notes
 
+> **Navigation:** [Roadmap index](../README.md) · [← Firewalls](Firewalls.md) · [Routing & Switching →](Routing-and-Switching.md)
+
 > Goal: read requests, responses, headers, and TLS metadata well enough to **triage phishing URLs, web-shell traffic, C2 beacons, exfiltration, and suspicious web requests** from proxy/WAF/EDR/Zeek logs.
-> DNS is covered in `DNS.md`, firewall policy/NAT in `Firewalls.md`. This note focuses on the web protocol layer.
+> DNS is covered in [DNS.md](DNS.md), firewall policy/NAT in [Firewalls.md](Firewalls.md). This note focuses on the web protocol layer.
 
 ---
 
@@ -297,7 +299,7 @@ scheme   userinfo       host      port     path           query        fragment
 | **CDN** | Caches content at edge | Many domains share IPs; reputation noisy; SNI is the real destination. |
 | **WAF** | Inspects HTTP | Blocks attacks; logs rule IDs and payloads. |
 | **API gateway** | Auth/rate limit/routing | Logs API keys, paths, status. |
-| **NAT** | Address translation | See `Firewalls.md` §5. |
+| **NAT** | Address translation | See [Firewalls.md](Firewalls.md) §5. |
 | **Tor/proxy services** | Anonymisation | Egress to Tor = high-signal policy/threat event. |
 
 **Key concepts:**
@@ -872,3 +874,7 @@ awk '{print $9}' access.log | sort | uniq -c | sort -rn
 - [ ] False positives: monitoring/backup agents, analytics URLs, health checks, CDNs, scanners, HTTP/3 defaults.
 - [ ] Hardening: HSTS, CSP, cookie flags, TLS hygiene, inspection, egress control, WAF, patching, upload restrictions, logging.
 - [ ] Commands: `curl -I/IL`, `openssl s_client`, `tcpdump -A`, `tshark -Y`, `Invoke-WebRequest`, `openssl x509`.
+
+---
+
+> **Navigation:** [Roadmap index](../README.md) · [← Firewalls](Firewalls.md) · [Routing & Switching →](Routing-and-Switching.md)
